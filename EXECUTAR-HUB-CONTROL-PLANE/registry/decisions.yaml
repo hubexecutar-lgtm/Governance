@@ -1,0 +1,209 @@
+- decision_id: DEC-MACRO-D01
+  topic: Atribuição de macroárea para D01 (Gestão Empresarial)
+  decision: D01 -> A00
+  rationale: Mapeamento semântico nome-do-domínio -> macroárea alvo do ADR-EXECUTAR-HUB-001,
+    Fase 2 (Reconciliation). Não há atribuição explícita nas fontes originais; decisão
+    registrada para revisão humana.
+  status: PROPOSED
+  requires_human_validation: true
+  adr_ref: ADR-EXECUTAR-HUB-001
+- decision_id: DEC-MACRO-D02
+  topic: Atribuição de macroárea para D02 (Jurídico, Riscos e Conformidade)
+  decision: D02 -> A00
+  rationale: Mapeamento semântico nome-do-domínio -> macroárea alvo do ADR-EXECUTAR-HUB-001,
+    Fase 2 (Reconciliation). Não há atribuição explícita nas fontes originais; decisão
+    registrada para revisão humana.
+  status: PROPOSED
+  requires_human_validation: true
+  adr_ref: ADR-EXECUTAR-HUB-001
+- decision_id: DEC-MACRO-D03
+  topic: Atribuição de macroárea para D03 (Finanças)
+  decision: D03 -> A00
+  rationale: Mapeamento semântico nome-do-domínio -> macroárea alvo do ADR-EXECUTAR-HUB-001,
+    Fase 2 (Reconciliation). Não há atribuição explícita nas fontes originais; decisão
+    registrada para revisão humana.
+  status: PROPOSED
+  requires_human_validation: true
+  adr_ref: ADR-EXECUTAR-HUB-001
+- decision_id: DEC-MACRO-D04
+  topic: Atribuição de macroárea para D04 (Pessoas e Recursos Humanos)
+  decision: D04 -> A07
+  rationale: Mapeamento semântico nome-do-domínio -> macroárea alvo do ADR-EXECUTAR-HUB-001,
+    Fase 2 (Reconciliation). Não há atribuição explícita nas fontes originais; decisão
+    registrada para revisão humana.
+  status: PROPOSED
+  requires_human_validation: true
+  adr_ref: ADR-EXECUTAR-HUB-001
+- decision_id: DEC-MACRO-D05
+  topic: Atribuição de macroárea para D05 (Dados)
+  decision: D05 -> A06
+  rationale: Mapeamento semântico nome-do-domínio -> macroárea alvo do ADR-EXECUTAR-HUB-001,
+    Fase 2 (Reconciliation). Não há atribuição explícita nas fontes originais; decisão
+    registrada para revisão humana.
+  status: PROPOSED
+  requires_human_validation: true
+  adr_ref: ADR-EXECUTAR-HUB-001
+- decision_id: DEC-MACRO-D06
+  topic: Atribuição de macroárea para D06 (Conhecimento e Busca Corporativa)
+  decision: D06 -> A06
+  rationale: Mapeamento semântico nome-do-domínio -> macroárea alvo do ADR-EXECUTAR-HUB-001,
+    Fase 2 (Reconciliation). Não há atribuição explícita nas fontes originais; decisão
+    registrada para revisão humana.
+  status: PROPOSED
+  requires_human_validation: true
+  adr_ref: ADR-EXECUTAR-HUB-001
+- decision_id: DEC-MACRO-D07
+  topic: Atribuição de macroárea para D07 (Produtividade e Execução)
+  decision: D07 -> A09
+  rationale: Mapeamento semântico nome-do-domínio -> macroárea alvo do ADR-EXECUTAR-HUB-001,
+    Fase 2 (Reconciliation). Não há atribuição explícita nas fontes originais; decisão
+    registrada para revisão humana.
+  status: PROPOSED
+  requires_human_validation: true
+  adr_ref: ADR-EXECUTAR-HUB-001
+- decision_id: DEC-MACRO-D08
+  topic: Atribuição de macroárea para D08 (Operações)
+  decision: D08 -> A05
+  rationale: Mapeamento semântico nome-do-domínio -> macroárea alvo do ADR-EXECUTAR-HUB-001,
+    Fase 2 (Reconciliation). Não há atribuição explícita nas fontes originais; decisão
+    registrada para revisão humana.
+  status: PROPOSED
+  requires_human_validation: true
+  adr_ref: ADR-EXECUTAR-HUB-001
+- decision_id: DEC-MACRO-D09
+  topic: Atribuição de macroárea para D09 (Pesquisa e Inovação)
+  decision: D09 -> A06
+  rationale: Mapeamento semântico nome-do-domínio -> macroárea alvo do ADR-EXECUTAR-HUB-001,
+    Fase 2 (Reconciliation). Não há atribuição explícita nas fontes originais; decisão
+    registrada para revisão humana.
+  status: PROPOSED
+  requires_human_validation: true
+  adr_ref: ADR-EXECUTAR-HUB-001
+- decision_id: DEC-MACRO-D10
+  topic: Atribuição de macroárea para D10 (Gestão de Produto)
+  decision: D10 -> A02
+  rationale: Mapeamento semântico nome-do-domínio -> macroárea alvo do ADR-EXECUTAR-HUB-001,
+    Fase 2 (Reconciliation). Não há atribuição explícita nas fontes originais; decisão
+    registrada para revisão humana.
+  status: PROPOSED
+  requires_human_validation: true
+  adr_ref: ADR-EXECUTAR-HUB-001
+- decision_id: DEC-MACRO-D11
+  topic: Atribuição de macroárea para D11 (Experiência e Projeto)
+  decision: D11 -> A02
+  rationale: Mapeamento semântico nome-do-domínio -> macroárea alvo do ADR-EXECUTAR-HUB-001,
+    Fase 2 (Reconciliation). Não há atribuição explícita nas fontes originais; decisão
+    registrada para revisão humana.
+  status: PROPOSED
+  requires_human_validation: true
+  adr_ref: ADR-EXECUTAR-HUB-001
+- decision_id: DEC-MACRO-D12
+  topic: Atribuição de macroárea para D12 (Engenharia)
+  decision: D12 -> A04
+  rationale: Mapeamento semântico nome-do-domínio -> macroárea alvo do ADR-EXECUTAR-HUB-001,
+    Fase 2 (Reconciliation). Não há atribuição explícita nas fontes originais; decisão
+    registrada para revisão humana.
+  status: PROPOSED
+  requires_human_validation: true
+  adr_ref: ADR-EXECUTAR-HUB-001
+- decision_id: DEC-MACRO-D13
+  topic: Atribuição de macroárea para D13 (Mercado e Geração de Demanda)
+  decision: D13 -> A01
+  rationale: Mapeamento semântico nome-do-domínio -> macroárea alvo do ADR-EXECUTAR-HUB-001,
+    Fase 2 (Reconciliation). Não há atribuição explícita nas fontes originais; decisão
+    registrada para revisão humana.
+  status: PROPOSED
+  requires_human_validation: true
+  adr_ref: ADR-EXECUTAR-HUB-001
+- decision_id: DEC-MACRO-D14
+  topic: Atribuição de macroárea para D14 (Vendas)
+  decision: D14 -> A01
+  rationale: Mapeamento semântico nome-do-domínio -> macroárea alvo do ADR-EXECUTAR-HUB-001,
+    Fase 2 (Reconciliation). Não há atribuição explícita nas fontes originais; decisão
+    registrada para revisão humana.
+  status: PROPOSED
+  requires_human_validation: true
+  adr_ref: ADR-EXECUTAR-HUB-001
+- decision_id: DEC-MACRO-D15
+  topic: Atribuição de macroárea para D15 (Atendimento e Sucesso do Cliente)
+  decision: D15 -> A01
+  rationale: Mapeamento semântico nome-do-domínio -> macroárea alvo do ADR-EXECUTAR-HUB-001,
+    Fase 2 (Reconciliation). Não há atribuição explícita nas fontes originais; decisão
+    registrada para revisão humana.
+  status: PROPOSED
+  requires_human_validation: true
+  adr_ref: ADR-EXECUTAR-HUB-001
+- decision_id: DEC-MACRO-D16
+  topic: 'Atribuição de macroárea para D16 (Mídias Sociais e Distribuição Digital
+    (alias: Mídias Sociais e Estratégias))'
+  decision: D16 -> A08
+  rationale: Mapeamento semântico nome-do-domínio -> macroárea alvo do ADR-EXECUTAR-HUB-001,
+    Fase 2 (Reconciliation). Não há atribuição explícita nas fontes originais; decisão
+    registrada para revisão humana.
+  status: PROPOSED
+  requires_human_validation: true
+  adr_ref: ADR-EXECUTAR-HUB-001
+- decision_id: DEC-MACRO-D17
+  topic: Atribuição de macroárea para D17 (Emprego e Portfólio)
+  decision: D17 -> A12
+  rationale: Mapeamento semântico nome-do-domínio -> macroárea alvo do ADR-EXECUTAR-HUB-001,
+    Fase 2 (Reconciliation). Não há atribuição explícita nas fontes originais; decisão
+    registrada para revisão humana.
+  status: PROPOSED
+  requires_human_validation: true
+  adr_ref: ADR-EXECUTAR-HUB-001
+- decision_id: DEC-MACRO-D18
+  topic: 'Atribuição de macroárea para D18 (Contratos e Esquemas (alias: Contratos
+    e Schemas))'
+  decision: D18 -> A00
+  rationale: Mapeamento semântico nome-do-domínio -> macroárea alvo do ADR-EXECUTAR-HUB-001,
+    Fase 2 (Reconciliation). Não há atribuição explícita nas fontes originais; decisão
+    registrada para revisão humana.
+  status: PROPOSED
+  requires_human_validation: true
+  adr_ref: ADR-EXECUTAR-HUB-001
+- decision_id: DEC-MACRO-D19
+  topic: Atribuição de macroárea para D19 (Assets e CTAs)
+  decision: D19 -> A11
+  rationale: Mapeamento semântico nome-do-domínio -> macroárea alvo do ADR-EXECUTAR-HUB-001,
+    Fase 2 (Reconciliation). Não há atribuição explícita nas fontes originais; decisão
+    registrada para revisão humana.
+  status: PROPOSED
+  requires_human_validation: true
+  adr_ref: ADR-EXECUTAR-HUB-001
+- decision_id: DEC-MACRO-D20
+  topic: Atribuição de macroárea para D20 (Plataformas e Repositórios)
+  decision: D20 -> A11
+  rationale: Mapeamento semântico nome-do-domínio -> macroárea alvo do ADR-EXECUTAR-HUB-001,
+    Fase 2 (Reconciliation). Não há atribuição explícita nas fontes originais; decisão
+    registrada para revisão humana.
+  status: PROPOSED
+  requires_human_validation: true
+  adr_ref: ADR-EXECUTAR-HUB-001
+- decision_id: DEC-MACRO-D21
+  topic: Atribuição de macroárea para D21 (Workbook)
+  decision: D21 -> A10
+  rationale: Mapeamento semântico nome-do-domínio -> macroárea alvo do ADR-EXECUTAR-HUB-001,
+    Fase 2 (Reconciliation). Não há atribuição explícita nas fontes originais; decisão
+    registrada para revisão humana.
+  status: PROPOSED
+  requires_human_validation: true
+  adr_ref: ADR-EXECUTAR-HUB-001
+- decision_id: DEC-MACRO-D22
+  topic: Atribuição de macroárea para D22 (Decision and Register Log)
+  decision: D22 -> A10
+  rationale: Mapeamento semântico nome-do-domínio -> macroárea alvo do ADR-EXECUTAR-HUB-001,
+    Fase 2 (Reconciliation). Não há atribuição explícita nas fontes originais; decisão
+    registrada para revisão humana.
+  status: PROPOSED
+  requires_human_validation: true
+  adr_ref: ADR-EXECUTAR-HUB-001
+- decision_id: DEC-MACRO-D23
+  topic: Atribuição de macroárea para D23 (Blueprints)
+  decision: D23 -> A10
+  rationale: Mapeamento semântico nome-do-domínio -> macroárea alvo do ADR-EXECUTAR-HUB-001,
+    Fase 2 (Reconciliation). Não há atribuição explícita nas fontes originais; decisão
+    registrada para revisão humana.
+  status: PROPOSED
+  requires_human_validation: true
+  adr_ref: ADR-EXECUTAR-HUB-001

@@ -1,0 +1,30 @@
+agent:
+  id: artifact-manager
+  role: Único writer de artifacts/fields
+  objective: Ler e propor atualizações a registry/artifacts.yaml e registry/fields.yaml
+    — nunca escreve fora desse escopo.
+  reads:
+  - registry/artifacts.yaml
+  - registry/fields.yaml
+  - registry/templates.yaml
+  writes:
+  - registry/artifacts.yaml
+  - registry/fields.yaml
+  tools:
+  - scripts/validate_orphans.py
+  - scripts/validate_links.py
+  permissions:
+  - read:registry
+  - write:registry.artifacts
+  - write:registry.fields
+  inputs:
+  - migrations/hub_model.snapshot.json
+  outputs:
+  - registry/artifacts.yaml
+  - registry/fields.yaml
+  dependencies:
+  - schema-validator
+  validation:
+  - orphan_records == [] e broken_links == [] após qualquer escrita
+  stop_conditions:
+  - Escrita validada por validate_orphans.py e validate_links.py

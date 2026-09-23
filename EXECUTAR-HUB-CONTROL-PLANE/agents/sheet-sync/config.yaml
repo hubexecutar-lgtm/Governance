@@ -1,0 +1,27 @@
+agent:
+  id: sheet-sync
+  role: Sincronização Sheets -> Registry
+  objective: Comparar o snapshot canônico com registry/*.yaml e reportar divergências
+    (parity engine).
+  reads:
+  - migrations/hub_model.snapshot.json
+  - registry/*.yaml
+  writes:
+  - registry/*.yaml (via generate_registry.py)
+  - reports/parity-report.md
+  tools:
+  - scripts/generate_registry.py
+  - scripts/compare_sheet_registry.py
+  permissions:
+  - read:migrations
+  - write:registry
+  - write:reports
+  inputs:
+  - Google Sheets congelado (config/schema.yaml#source_sheet_id)
+  outputs:
+  - registry/*.yaml sincronizado
+  dependencies: []
+  validation:
+  - parity_percent == 100 antes de reportar sucesso
+  stop_conditions:
+  - compare_sheet_registry.py retorna status PASS

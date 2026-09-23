@@ -1,0 +1,39 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "PortfolioItem",
+  "type": "object",
+  "required": [
+    "portfolio_id",
+    "name",
+    "type"
+  ],
+  "properties": {
+    "portfolio_id": {
+      "type": "string"
+    },
+    "parent_portfolio_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "name": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string"
+    },
+    "owner": {
+      "type": "string"
+    },
+    "legacy_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}

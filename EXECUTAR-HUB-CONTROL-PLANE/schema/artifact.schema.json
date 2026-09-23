@@ -1,0 +1,113 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Artifact",
+  "type": "object",
+  "required": [
+    "artifact_id",
+    "program_id",
+    "macroarea_id",
+    "title",
+    "status"
+  ],
+  "properties": {
+    "artifact_id": {
+      "type": "string"
+    },
+    "program_id": {
+      "const": "EXECUTAR"
+    },
+    "portfolio_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "macroarea_id": {
+      "type": "string"
+    },
+    "domain_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "subdomain_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "lifecycle_stage_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "gate_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "artifact_type": {
+      "type": "string"
+    },
+    "template_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "title": {
+      "type": "string"
+    },
+    "version": {
+      "type": "string"
+    },
+    "required": {
+      "type": "boolean"
+    },
+    "status": {
+      "type": "string"
+    },
+    "approval_status": {
+      "type": "string"
+    },
+    "owner": {
+      "type": "string"
+    },
+    "approver": {
+      "type": "string"
+    },
+    "depends_on": {
+      "type": "array"
+    },
+    "blocks": {
+      "type": "array"
+    },
+    "evidence_ids": {
+      "type": "array"
+    },
+    "source_links": {
+      "type": "array"
+    },
+    "next_action": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "automation_level": {
+      "enum": [
+        "A0",
+        "A1",
+        "A2",
+        "A3",
+        "A4"
+      ]
+    },
+    "legacy_ids": {
+      "type": "array"
+    }
+  }
+}

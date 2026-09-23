@@ -1,0 +1,17 @@
+name: validate-schema
+on:
+  pull_request:
+    paths: ["registry/**", "schema/**"]
+  push:
+    branches: [main]
+    paths: ["registry/**", "schema/**"]
+jobs:
+  validate-schema:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install -r requirements.txt
+      - run: python3 scripts/validate_schema.py

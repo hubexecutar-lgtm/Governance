@@ -1,0 +1,1258 @@
+- artifact_id: D01-DOC-DDE-001
+  program_id: EXECUTAR
+  portfolio_id: null
+  macroarea_id: A00
+  domain_id: D01
+  subdomain_id: null
+  lifecycle_stage_id: null
+  gate_id: null
+  artifact_type: MACRO
+  template_id: null
+  title: Documento de Direção Empresarial
+  version: 1.0.0
+  required: true
+  status: PRE_PREENCHIDO
+  approval_status: PENDENTE
+  owner: A_DEFINIR
+  approver: A_DEFINIR
+  depends_on: []
+  blocks: []
+  input_artifact_ids: []
+  output_artifact_ids: []
+  acceptance_criteria: []
+  evidence_ids:
+  - D01-DOC-DDE-001-EVD
+  gap_ids: []
+  conflict_ids: []
+  source_links:
+  - 'Drive: D01__*'
+  output_link: null
+  next_action: Executar PF-24 (reconciliação cruzada depends_on/blocks) — NA-03.
+  automation_level: A4
+  legacy_ids:
+  - D01-DOC-DDE-001
+  acronym: DDE
+- artifact_id: D01-DOC-TAP-001
+  program_id: EXECUTAR
+  portfolio_id: null
+  macroarea_id: A00
+  domain_id: D01
+  subdomain_id: null
+  lifecycle_stage_id: null
+  gate_id: null
+  artifact_type: SPECIALIZED
+  template_id: null
+  title: Termo de Abertura do Ecossistema
+  version: 1.0.0
+  required: true
+  status: PRE_PREENCHIDO
+  approval_status: PENDENTE
+  owner: A_DEFINIR
+  approver: A_DEFINIR
+  depends_on: []
+  blocks: []
+  input_artifact_ids: []
+  output_artifact_ids: []
+  acceptance_criteria: []
+  evidence_ids:
+  - D01-DOC-TAP-001-EVD
+  gap_ids: []
+  conflict_ids: []
+  source_links:
+  - 'Drive: D01__*'
+  output_link: null
+  next_action: Executar PF-24 (reconciliação cruzada depends_on/blocks) — NA-03.
+  automation_level: A4
+  legacy_ids:
+  - D01-DOC-TAP-001
+  acronym: TAP
+- artifact_id: D01-DOC-MNE-001
+  program_id: EXECUTAR
+  portfolio_id: null
+  macroarea_id: A00
+  domain_id: D01
+  subdomain_id: null
+  lifecycle_stage_id: null
+  gate_id: null
+  artifact_type: SPECIALIZED
+  template_id: null
+  title: Modelo de Negócio do Ecossistema
+  version: 1.0.0
+  required: true
+  status: PRE_PREENCHIDO
+  approval_status: PENDENTE
+  owner: A_DEFINIR
+  approver: A_DEFINIR
+  depends_on: []
+  blocks: []
+  input_artifact_ids: []
+  output_artifact_ids: []
+  acceptance_criteria: []
+  evidence_ids:
+  - D01-DOC-MNE-001-EVD
+  gap_ids: []
+  conflict_ids: []
+  source_links:
+  - 'Drive: D01__*'
+  output_link: null
+  next_action: Executar PF-24 (reconciliação cruzada depends_on/blocks) — NA-03.
+  automation_level: A4
+  legacy_ids:
+  - D01-DOC-MNE-001
+  acronym: MNE
+- artifact_id: D01-DOC-MRE-001
+  program_id: EXECUTAR
+  portfolio_id: null
+  macroarea_id: A00
+  domain_id: D01
+  subdomain_id: null
+  lifecycle_stage_id: null
+  gate_id: null
+  artifact_type: SPECIALIZED
+  template_id: null
+  title: Mapa de Relações do Ecossistema
+  version: 1.0.0
+  required: true
+  status: PRE_PREENCHIDO
+  approval_status: PENDENTE
+  owner: A_DEFINIR
+  approver: A_DEFINIR
+  depends_on: []
+  blocks: []
+  input_artifact_ids: []
+  output_artifact_ids: []
+  acceptance_criteria: []
+  evidence_ids:
+  - D01-DOC-MRE-001-EVD
+  gap_ids: []
+  conflict_ids: []
+  source_links:
+  - 'Drive: D01__*'
+  output_link: null
+  next_action: Executar PF-24 (reconciliação cruzada depends_on/blocks) — NA-03.
+  automation_level: A4
+  legacy_ids:
+  - D01-DOC-MRE-001
+  acronym: MRE
+- artifact_id: D02-DOC-DGRC-001
+  program_id: EXECUTAR
+  portfolio_id: null
+  macroarea_id: A00
+  domain_id: D02
+  subdomain_id: null
+  lifecycle_stage_id: null
+  gate_id: null
+  artifact_type: MACRO
+  template_id: null
+  title: Documento de Governança, Riscos e Conformidade
+  version: 1.0.0
+  required: true
+  status: PRE_PREENCHIDO
+  approval_status: PENDENTE
+  owner: A_DEFINIR
+  approver: A_DEFINIR
+  depends_on: []
+  blocks: []
+  input_artifact_ids: []
+  output_artifact_ids: []
+  acceptance_criteria: []
+  evidence_ids:
+  - D02-DOC-DGRC-001-EVD
+  gap_ids: []
+  conflict_ids: []
+  source_links:
+  - 'Drive: D02__*'
+  output_link: null
+  next_action: Executar PF-24 (reconciliação cruzada depends_on/blocks) — NA-03.
+  automation_level: A4
+  legacy_ids:
+  - D02-DOC-DGRC-001
+  acronym: DGRC
+- artifact_id: D02-DOC-MRC-001
+  program_id: EXECUTAR
+  portfolio_id: null
+  macroarea_id: A00
+  domain_id: D02
+  subdomain_id: null
+  lifecycle_stage_id: null
+  gate_id: null
+  artifact_type: SPECIALIZED
+  template_id: null
+  title: Matriz de Riscos e Controles
+  version: 1.0.0
+  required: true
+  status: PRE_PREENCHIDO
+  approval_status: PENDENTE
+  owner: A_DEFINIR
+  approver: A_DEFINIR
+  depends_on: []
+  blocks: []
+  input_artifact_ids: []
+  output_artifact_ids: []
+  acceptance_criteria: []
+  evidence_ids:
+  - D02-DOC-MRC-001-EVD
+  gap_ids: []
+  conflict_ids: []
+  source_links:
+  - 'Drive: D02__*'
+  output_link: null
+  next_action: Executar PF-24 (reconciliação cruzada depends_on/blocks) — NA-03.
+  automation_level: A4
+  legacy_ids:
+  - D02-DOC-MRC-001
+  acronym: MRC
+- artifact_id: D02-DOC-PPT-001
+  program_id: EXECUTAR
+  portfolio_id: null
+  macroarea_id: A00
+  domain_id: D02
+  subdomain_id: null
+  lifecycle_stage_id: null
+  gate_id: null
+  artifact_type: SPECIALIZED
+  template_id: null
+  title: Política de Privacidade e Termos
+  version: 1.0.0
+  required: true
+  status: PRE_PREENCHIDO
+  approval_status: PENDENTE
+  owner: A_DEFINIR
+  approver: A_DEFINIR
+  depends_on: []
+  blocks: []
+  input_artifact_ids: []
+  output_artifact_ids: []
+  acceptance_criteria: []
+  evidence_ids:
+  - D02-DOC-PPT-001-EVD
+  gap_ids: []
+  conflict_ids: []
+  source_links:
+  - 'Drive: D02__*'
+  output_link: null
+  next_action: Executar PF-24 (reconciliação cruzada depends_on/blocks) — NA-03.
+  automation_level: A4
+  legacy_ids:
+  - D02-DOC-PPT-001
+  acronym: PPT
+- artifact_id: D03-DOC-PFO-001
+  program_id: EXECUTAR
+  portfolio_id: null
+  macroarea_id: A00
+  domain_id: D03
+  subdomain_id: null
+  lifecycle_stage_id: null
+  gate_id: null
+  artifact_type: MACRO
+  template_id: null
+  title: Plano Financeiro e Orçamentário
+  version: 1.0.0
+  required: true
+  status: PRE_PREENCHIDO
+  approval_status: PENDENTE
+  owner: A_DEFINIR
+  approver: A_DEFINIR
+  depends_on: []
+  blocks: []
+  input_artifact_ids: []
+  output_artifact_ids: []
+  acceptance_criteria: []
+  evidence_ids:
+  - D03-DOC-PFO-001-EVD
+  gap_ids: []
+  conflict_ids: []
+  source_links:
+  - 'Drive: D03__*'
+  output_link: null
+  next_action: Executar PF-24 (reconciliação cruzada depends_on/blocks) — NA-03.
+  automation_level: A4
+  legacy_ids:
+  - D03-DOC-PFO-001
+  acronym: PFO
+- artifact_id: D03-DOC-MFO-001
+  program_id: EXECUTAR
+  portfolio_id: null
+  macroarea_id: A00
+  domain_id: D03
+  subdomain_id: null
+  lifecycle_stage_id: null
+  gate_id: null
+  artifact_type: SPECIALIZED
+  template_id: null
+  title: Modelo Financeiro do Ecossistema
+  version: 1.0.0
+  required: true
+  status: PRE_PREENCHIDO
+  approval_status: PENDENTE
+  owner: A_DEFINIR
+  approver: A_DEFINIR
+  depends_on: []
+  blocks: []
+  input_artifact_ids: []
+  output_artifact_ids: []
+  acceptance_criteria: []
+  evidence_ids:
+  - D03-DOC-MFO-001-EVD
+  gap_ids: []
+  conflict_ids: []
+  source_links:
+  - 'Drive: D03__*'
+  output_link: null
+  next_action: Executar PF-24 (reconciliação cruzada depends_on/blocks) — NA-03.
+  automation_level: A4
+  legacy_ids:
+  - D03-DOC-MFO-001
+  acronym: MFO
+- artifact_id: D04-DOC-PPC-001
+  program_id: EXECUTAR
+  portfolio_id: null
+  macroarea_id: A07
+  domain_id: D04
+  subdomain_id: null
+  lifecycle_stage_id: null
+  gate_id: null
+  artifact_type: MACRO
+  template_id: null
+  title: Plano de Pessoas e Capacidade
+  version: 1.0.0
+  required: true
+  status: PRE_PREENCHIDO
+  approval_status: PENDENTE
+  owner: A_DEFINIR
+  approver: A_DEFINIR
+  depends_on: []
+  blocks: []
+  input_artifact_ids: []
+  output_artifact_ids: []
+  acceptance_criteria: []
+  evidence_ids:
+  - D04-DOC-PPC-001-EVD
+  gap_ids: []
+  conflict_ids: []
+  source_links:
+  - 'Drive: D04__*'
+  output_link: null
+  next_action: Executar PF-24 (reconciliação cruzada depends_on/blocks) — NA-03.
+  automation_level: A4
+  legacy_ids:
+  - D04-DOC-PPC-001
+  acronym: PPC
+- artifact_id: D05-DOC-EPGD-001
+  program_id: EXECUTAR
+  portfolio_id: null
+  macroarea_id: A06
+  domain_id: D05
+  subdomain_id: null
+  lifecycle_stage_id: null
+  gate_id: null
+  artifact_type: MACRO
+  template_id: null
+  title: Estratégia e Plano de Gestão de Dados
+  version: 1.0.0
+  required: true
+  status: PRE_PREENCHIDO
+  approval_status: PENDENTE
+  owner: A_DEFINIR
+  approver: A_DEFINIR
+  depends_on: []
+  blocks: []
+  input_artifact_ids: []
+  output_artifact_ids: []
+  acceptance_criteria: []
+  evidence_ids:
+  - D05-DOC-EPGD-001-EVD
+  gap_ids: []
+  conflict_ids: []
+  source_links:
+  - 'Drive: D05__*'
+  output_link: null
+  next_action: Executar PF-24 (reconciliação cruzada depends_on/blocks) — NA-03.
+  automation_level: A4
+  legacy_ids:
+  - D05-DOC-EPGD-001
+  acronym: EPGD
+- artifact_id: D05-DOC-DCM-001
+  program_id: EXECUTAR
+  portfolio_id: null
+  macroarea_id: A06
+  domain_id: D05
+  subdomain_id: null
+  lifecycle_stage_id: null
+  gate_id: null
+  artifact_type: SPECIALIZED
+  template_id: null
+  title: Dicionário de Dados e Catálogo de Métricas
+  version: 1.0.0
+  required: true
+  status: PRE_PREENCHIDO
+  approval_status: PENDENTE
+  owner: A_DEFINIR
+  approver: A_DEFINIR
+  depends_on: []
+  blocks: []
+  input_artifact_ids: []
+  output_artifact_ids: []
+  acceptance_criteria: []
+  evidence_ids:
+  - D05-DOC-DCM-001-EVD
+  gap_ids: []
+  conflict_ids: []
+  source_links:
+  - 'Drive: D05__*'
+  output_link: null
+  next_action: Executar PF-24 (reconciliação cruzada depends_on/blocks) — NA-03.
+  automation_level: A4
+  legacy_ids:
+  - D05-DOC-DCM-001
+  acronym: DCM
+- artifact_id: D06-DOC-EGC-001
+  program_id: EXECUTAR
+  portfolio_id: null
+  macroarea_id: A06
+  domain_id: D06
+  subdomain_id: null
+  lifecycle_stage_id: null
+  gate_id: null
+  artifact_type: MACRO
+  template_id: null
+  title: Estratégia de Gestão do Conhecimento
+  version: 1.0.0
+  required: true
+  status: PRE_PREENCHIDO
+  approval_status: PENDENTE
+  owner: A_DEFINIR
+  approver: A_DEFINIR
+  depends_on: []
+  blocks: []
+  input_artifact_ids: []
+  output_artifact_ids: []
+  acceptance_criteria: []
+  evidence_ids:
+  - D06-DOC-EGC-001-EVD
+  gap_ids: []
+  conflict_ids: []
+  source_links:
+  - 'Drive: D06__*'
+  output_link: null
+  next_action: Executar PF-24 (reconciliação cruzada depends_on/blocks) — NA-03.
+  automation_level: A4
+  legacy_ids:
+  - D06-DOC-EGC-001
+  acronym: EGC
+- artifact_id: D06-DOC-RMI-001
+  program_id: EXECUTAR
+  portfolio_id: null
+  macroarea_id: A06
+  domain_id: D06
+  subdomain_id: null
+  lifecycle_stage_id: null
+  gate_id: null
+  artifact_type: SPECIALIZED
+  template_id: null
+  title: Registro Mestre de Identidades
+  version: 1.0.0
+  required: true
+  status: PRE_PREENCHIDO
+  approval_status: PENDENTE
+  owner: A_DEFINIR
+  approver: A_DEFINIR
+  depends_on: []
+  blocks: []
+  input_artifact_ids: []
+  output_artifact_ids: []
+  acceptance_criteria: []
+  evidence_ids:
+  - D06-DOC-RMI-001-EVD
+  gap_ids: []
+  conflict_ids: []
+  source_links:
+  - 'Drive: D06__*'
+  output_link: null
+  next_action: Executar PF-24 (reconciliação cruzada depends_on/blocks) — NA-03.
+  automation_level: A4
+  legacy_ids:
+  - D06-DOC-RMI-001
+  acronym: RMI
+- artifact_id: D07-DOC-PEX-001
+  program_id: EXECUTAR
+  portfolio_id: null
+  macroarea_id: A09
+  domain_id: D07
+  subdomain_id: null
+  lifecycle_stage_id: null
+  gate_id: null
+  artifact_type: MACRO
+  template_id: null
+  title: Plano de Execução
+  version: 1.0.0
+  required: true
+  status: PRE_PREENCHIDO
+  approval_status: PENDENTE
+  owner: A_DEFINIR
+  approver: A_DEFINIR
+  depends_on: []
+  blocks: []
+  input_artifact_ids: []
+  output_artifact_ids: []
+  acceptance_criteria: []
+  evidence_ids:
+  - D07-DOC-PEX-001-EVD
+  gap_ids: []
+  conflict_ids: []
+  source_links:
+  - 'Drive: D07__*'
+  output_link: null
+  next_action: Executar PF-24 (reconciliação cruzada depends_on/blocks) — NA-03.
+  automation_level: A4
+  legacy_ids:
+  - D07-DOC-PEX-001
+  acronym: PEX
+- artifact_id: D07-DOC-PIM-001
+  program_id: EXECUTAR
+  portfolio_id: null
+  macroarea_id: A09
+  domain_id: D07
+  subdomain_id: null
+  lifecycle_stage_id: null
+  gate_id: null
+  artifact_type: SPECIALIZED
+  template_id: null
+  title: Plano de Implementação e Marcos
+  version: 1.0.0
+  required: true
+  status: PRE_PREENCHIDO
+  approval_status: PENDENTE
+  owner: A_DEFINIR
+  approver: A_DEFINIR
+  depends_on: []
+  blocks: []
+  input_artifact_ids: []
+  output_artifact_ids: []
+  acceptance_criteria: []
+  evidence_ids:
+  - D07-DOC-PIM-001-EVD
+  gap_ids: []
+  conflict_ids: []
+  source_links:
+  - 'Drive: D07__*'
+  output_link: null
+  next_action: Executar PF-24 (reconciliação cruzada depends_on/blocks) — NA-03.
+  automation_level: A4
+  legacy_ids:
+  - D07-DOC-PIM-001
+  acronym: PIM
+- artifact_id: D08-DOC-MOP-001
+  program_id: EXECUTAR
+  portfolio_id: null
+  macroarea_id: A05
+  domain_id: D08
+  subdomain_id: null
+  lifecycle_stage_id: null
+  gate_id: null
+  artifact_type: MACRO
+  template_id: null
+  title: Manual de Operações
+  version: 1.0.0
+  required: true
+  status: PRE_PREENCHIDO
+  approval_status: PENDENTE
+  owner: A_DEFINIR
+  approver: A_DEFINIR
+  depends_on: []
+  blocks: []
+  input_artifact_ids: []
+  output_artifact_ids: []
+  acceptance_criteria: []
+  evidence_ids:
+  - D08-DOC-MOP-001-EVD
+  gap_ids: []
+  conflict_ids: []
+  source_links:
+  - 'Drive: D08__*'
+  output_link: null
+  next_action: Executar PF-24 (reconciliação cruzada depends_on/blocks) — NA-03.
+  automation_level: A4
+  legacy_ids:
+  - D08-DOC-MOP-001
+  acronym: MOP
+- artifact_id: D08-DOC-RUN-001
+  program_id: EXECUTAR
+  portfolio_id: null
+  macroarea_id: A05
+  domain_id: D08
+  subdomain_id: null
+  lifecycle_stage_id: null
+  gate_id: null
+  artifact_type: SPECIALIZED
+  template_id: null
+  title: Runbook Operacional do Ecossistema
+  version: 1.0.0
+  required: true
+  status: PRE_PREENCHIDO
+  approval_status: PENDENTE
+  owner: A_DEFINIR
+  approver: A_DEFINIR
+  depends_on: []
+  blocks: []
+  input_artifact_ids: []
+  output_artifact_ids: []
+  acceptance_criteria: []
+  evidence_ids:
+  - D08-DOC-RUN-001-EVD
+  gap_ids: []
+  conflict_ids: []
+  source_links:
+  - 'Drive: D08__*'
+  output_link: null
+  next_action: Executar PF-24 (reconciliação cruzada depends_on/blocks) — NA-03.
+  automation_level: A4
+  legacy_ids:
+  - D08-DOC-RUN-001
+  acronym: RUN
+- artifact_id: D09-DOC-PPE-001
+  program_id: EXECUTAR
+  portfolio_id: null
+  macroarea_id: A06
+  domain_id: D09
+  subdomain_id: null
+  lifecycle_stage_id: null
+  gate_id: null
+  artifact_type: MACRO
+  template_id: null
+  title: Plano de Pesquisa e Experimentação
+  version: 1.0.0
+  required: true
+  status: PRE_PREENCHIDO
+  approval_status: PENDENTE
+  owner: A_DEFINIR
+  approver: A_DEFINIR
+  depends_on: []
+  blocks: []
+  input_artifact_ids: []
+  output_artifact_ids: []
+  acceptance_criteria: []
+  evidence_ids:
+  - D09-DOC-PPE-001-EVD
+  gap_ids: []
+  conflict_ids: []
+  source_links:
+  - 'Drive: D09__*'
+  output_link: null
+  next_action: Executar PF-24 (reconciliação cruzada depends_on/blocks) — NA-03.
+  automation_level: A4
+  legacy_ids:
+  - D09-DOC-PPE-001
+  acronym: PPE
+- artifact_id: D09-DOC-DEB-001
+  program_id: EXECUTAR
+  portfolio_id: null
+  macroarea_id: A06
+  domain_id: D09
+  subdomain_id: null
+  lifecycle_stage_id: null
+  gate_id: null
+  artifact_type: SPECIALIZED
+  template_id: null
+  title: Dossiê de Evidências e Base Científica
+  version: 1.0.0
+  required: true
+  status: PRE_PREENCHIDO
+  approval_status: PENDENTE
+  owner: A_DEFINIR
+  approver: A_DEFINIR
+  depends_on: []
+  blocks: []
+  input_artifact_ids: []
+  output_artifact_ids: []
+  acceptance_criteria: []
+  evidence_ids:
+  - D09-DOC-DEB-001-EVD
+  gap_ids: []
+  conflict_ids: []
+  source_links:
+  - 'Drive: D09__*'
+  output_link: null
+  next_action: Executar PF-24 (reconciliação cruzada depends_on/blocks) — NA-03.
+  automation_level: A4
+  legacy_ids:
+  - D09-DOC-DEB-001
+  acronym: DEB
+- artifact_id: D10-DOC-DRP-001
+  program_id: EXECUTAR
+  portfolio_id: null
+  macroarea_id: A02
+  domain_id: D10
+  subdomain_id: null
+  lifecycle_stage_id: null
+  gate_id: null
+  artifact_type: MACRO
+  template_id: null
+  title: Documento de Requisitos de Produto
+  version: 1.0.0
+  required: true
+  status: PRE_PREENCHIDO
+  approval_status: PENDENTE
+  owner: A_DEFINIR
+  approver: A_DEFINIR
+  depends_on: []
+  blocks: []
+  input_artifact_ids: []
+  output_artifact_ids: []
+  acceptance_criteria: []
+  evidence_ids:
+  - D10-DOC-DRP-001-EVD
+  gap_ids: []
+  conflict_ids: []
+  source_links:
+  - 'Drive: D10__*'
+  output_link: null
+  next_action: Executar PF-24 (reconciliação cruzada depends_on/blocks) — NA-03.
+  automation_level: A4
+  legacy_ids:
+  - D10-DOC-DRP-001
+  acronym: DRP
+- artifact_id: D10-DOC-PRD-001
+  program_id: EXECUTAR
+  portfolio_id: null
+  macroarea_id: A02
+  domain_id: D10
+  subdomain_id: null
+  lifecycle_stage_id: null
+  gate_id: null
+  artifact_type: SPECIALIZED
+  template_id: null
+  title: Requisitos Integrados dos Produtos
+  version: 1.0.0
+  required: true
+  status: PRE_PREENCHIDO
+  approval_status: PENDENTE
+  owner: A_DEFINIR
+  approver: A_DEFINIR
+  depends_on: []
+  blocks: []
+  input_artifact_ids: []
+  output_artifact_ids: []
+  acceptance_criteria: []
+  evidence_ids:
+  - D10-DOC-PRD-001-EVD
+  gap_ids: []
+  conflict_ids: []
+  source_links:
+  - 'Drive: D10__*'
+  output_link: null
+  next_action: Executar PF-24 (reconciliação cruzada depends_on/blocks) — NA-03.
+  automation_level: A4
+  legacy_ids:
+  - D10-DOC-PRD-001
+  acronym: PRD
+- artifact_id: D11-DOC-EEP-001
+  program_id: EXECUTAR
+  portfolio_id: null
+  macroarea_id: A02
+  domain_id: D11
+  subdomain_id: null
+  lifecycle_stage_id: null
+  gate_id: null
+  artifact_type: MACRO
+  template_id: null
+  title: Especificação de Experiência e Projeto
+  version: 1.0.0
+  required: true
+  status: PRE_PREENCHIDO
+  approval_status: PENDENTE
+  owner: A_DEFINIR
+  approver: A_DEFINIR
+  depends_on: []
+  blocks: []
+  input_artifact_ids: []
+  output_artifact_ids: []
+  acceptance_criteria: []
+  evidence_ids:
+  - D11-DOC-EEP-001-EVD
+  gap_ids: []
+  conflict_ids: []
+  source_links:
+  - 'Drive: D11__*'
+  output_link: null
+  next_action: Executar PF-24 (reconciliação cruzada depends_on/blocks) — NA-03.
+  automation_level: A4
+  legacy_ids:
+  - D11-DOC-EEP-001
+  acronym: EEP
+- artifact_id: D11-DOC-DSI-001
+  program_id: EXECUTAR
+  portfolio_id: null
+  macroarea_id: A02
+  domain_id: D11
+  subdomain_id: null
+  lifecycle_stage_id: null
+  gate_id: null
+  artifact_type: SPECIALIZED
+  template_id: null
+  title: Sistema de Design e Interface
+  version: 1.0.0
+  required: true
+  status: PRE_PREENCHIDO
+  approval_status: PENDENTE
+  owner: A_DEFINIR
+  approver: A_DEFINIR
+  depends_on: []
+  blocks: []
+  input_artifact_ids: []
+  output_artifact_ids: []
+  acceptance_criteria: []
+  evidence_ids:
+  - D11-DOC-DSI-001-EVD
+  gap_ids: []
+  conflict_ids: []
+  source_links:
+  - 'Drive: D11__*'
+  output_link: null
+  next_action: Executar PF-24 (reconciliação cruzada depends_on/blocks) — NA-03.
+  automation_level: A4
+  legacy_ids:
+  - D11-DOC-DSI-001
+  acronym: DSI
+- artifact_id: D12-DOC-ETE-001
+  program_id: EXECUTAR
+  portfolio_id: null
+  macroarea_id: A04
+  domain_id: D12
+  subdomain_id: null
+  lifecycle_stage_id: null
+  gate_id: null
+  artifact_type: MACRO
+  template_id: null
+  title: Especificação Técnica de Engenharia
+  version: 1.0.0
+  required: true
+  status: PRE_PREENCHIDO
+  approval_status: PENDENTE
+  owner: A_DEFINIR
+  approver: A_DEFINIR
+  depends_on: []
+  blocks: []
+  input_artifact_ids: []
+  output_artifact_ids: []
+  acceptance_criteria: []
+  evidence_ids:
+  - D12-DOC-ETE-001-EVD
+  gap_ids: []
+  conflict_ids: []
+  source_links:
+  - 'Drive: D12__*'
+  output_link: null
+  next_action: Executar PF-24 (reconciliação cruzada depends_on/blocks) — NA-03.
+  automation_level: A4
+  legacy_ids:
+  - D12-DOC-ETE-001
+  acronym: ETE
+- artifact_id: D13-DOC-DRM-001
+  program_id: EXECUTAR
+  portfolio_id: null
+  macroarea_id: A01
+  domain_id: D13
+  subdomain_id: null
+  lifecycle_stage_id: null
+  gate_id: null
+  artifact_type: MACRO
+  template_id: null
+  title: Documento de Requisitos de Mercado
+  version: 1.0.0
+  required: true
+  status: PRE_PREENCHIDO
+  approval_status: PENDENTE
+  owner: A_DEFINIR
+  approver: A_DEFINIR
+  depends_on: []
+  blocks: []
+  input_artifact_ids: []
+  output_artifact_ids: []
+  acceptance_criteria: []
+  evidence_ids:
+  - D13-DOC-DRM-001-EVD
+  gap_ids: []
+  conflict_ids: []
+  source_links:
+  - 'Drive: D13__*'
+  output_link: null
+  next_action: Executar PF-24 (reconciliação cruzada depends_on/blocks) — NA-03.
+  automation_level: A4
+  legacy_ids:
+  - D13-DOC-DRM-001
+  acronym: DRM
+- artifact_id: D13-DOC-GTM-001
+  program_id: EXECUTAR
+  portfolio_id: null
+  macroarea_id: A01
+  domain_id: D13
+  subdomain_id: null
+  lifecycle_stage_id: null
+  gate_id: null
+  artifact_type: SPECIALIZED
+  template_id: null
+  title: Plano de Entrada no Mercado e Lançamento
+  version: 1.0.0
+  required: true
+  status: PRE_PREENCHIDO
+  approval_status: PENDENTE
+  owner: A_DEFINIR
+  approver: A_DEFINIR
+  depends_on: []
+  blocks: []
+  input_artifact_ids: []
+  output_artifact_ids: []
+  acceptance_criteria: []
+  evidence_ids:
+  - D13-DOC-GTM-001-EVD
+  gap_ids: []
+  conflict_ids: []
+  source_links:
+  - 'Drive: D13__*'
+  output_link: null
+  next_action: Executar PF-24 (reconciliação cruzada depends_on/blocks) — NA-03.
+  automation_level: A4
+  legacy_ids:
+  - D13-DOC-GTM-001
+  acronym: GTM
+- artifact_id: D14-DOC-PCV-001
+  program_id: EXECUTAR
+  portfolio_id: null
+  macroarea_id: A01
+  domain_id: D14
+  subdomain_id: null
+  lifecycle_stage_id: null
+  gate_id: null
+  artifact_type: MACRO
+  template_id: null
+  title: Plano Comercial e de Vendas
+  version: 1.0.0
+  required: true
+  status: PRE_PREENCHIDO
+  approval_status: PENDENTE
+  owner: A_DEFINIR
+  approver: A_DEFINIR
+  depends_on: []
+  blocks: []
+  input_artifact_ids: []
+  output_artifact_ids: []
+  acceptance_criteria: []
+  evidence_ids:
+  - D14-DOC-PCV-001-EVD
+  gap_ids: []
+  conflict_ids: []
+  source_links:
+  - 'Drive: D14__*'
+  output_link: null
+  next_action: Executar PF-24 (reconciliação cruzada depends_on/blocks) — NA-03.
+  automation_level: A4
+  legacy_ids:
+  - D14-DOC-PCV-001
+  acronym: PCV
+- artifact_id: D15-DOC-PASC-001
+  program_id: EXECUTAR
+  portfolio_id: null
+  macroarea_id: A01
+  domain_id: D15
+  subdomain_id: null
+  lifecycle_stage_id: null
+  gate_id: null
+  artifact_type: MACRO
+  template_id: null
+  title: Plano de Atendimento e Sucesso do Cliente
+  version: 1.0.0
+  required: true
+  status: PRE_PREENCHIDO
+  approval_status: PENDENTE
+  owner: A_DEFINIR
+  approver: A_DEFINIR
+  depends_on: []
+  blocks: []
+  input_artifact_ids: []
+  output_artifact_ids: []
+  acceptance_criteria: []
+  evidence_ids:
+  - D15-DOC-PASC-001-EVD
+  gap_ids: []
+  conflict_ids: []
+  source_links:
+  - 'Drive: D15__*'
+  output_link: null
+  next_action: Executar PF-24 (reconciliação cruzada depends_on/blocks) — NA-03.
+  automation_level: A4
+  legacy_ids:
+  - D15-DOC-PASC-001
+  acronym: PASC
+- artifact_id: D16-DOC-PEM-001
+  program_id: EXECUTAR
+  portfolio_id: null
+  macroarea_id: A08
+  domain_id: D16
+  subdomain_id: null
+  lifecycle_stage_id: null
+  gate_id: null
+  artifact_type: MACRO
+  template_id: null
+  title: Plano Estratégico de Mídias Sociais
+  version: 1.0.0
+  required: true
+  status: PRE_PREENCHIDO
+  approval_status: PENDENTE
+  owner: A_DEFINIR
+  approver: A_DEFINIR
+  depends_on: []
+  blocks: []
+  input_artifact_ids: []
+  output_artifact_ids: []
+  acceptance_criteria: []
+  evidence_ids:
+  - D16-DOC-PEM-001-EVD
+  gap_ids: []
+  conflict_ids: []
+  source_links:
+  - 'Drive: D16__*'
+  output_link: null
+  next_action: Executar PF-24 (reconciliação cruzada depends_on/blocks) — NA-03.
+  automation_level: A4
+  legacy_ids:
+  - D16-DOC-PEM-001
+  acronym: PEM
+- artifact_id: D17-DOC-PEP-001
+  program_id: EXECUTAR
+  portfolio_id: null
+  macroarea_id: A12
+  domain_id: D17
+  subdomain_id: null
+  lifecycle_stage_id: null
+  gate_id: null
+  artifact_type: MACRO
+  template_id: null
+  title: Plano de Emprego e Portfólio
+  version: 1.0.0
+  required: true
+  status: PRE_PREENCHIDO
+  approval_status: PENDENTE
+  owner: A_DEFINIR
+  approver: A_DEFINIR
+  depends_on: []
+  blocks: []
+  input_artifact_ids: []
+  output_artifact_ids: []
+  acceptance_criteria: []
+  evidence_ids:
+  - D17-DOC-PEP-001-EVD
+  gap_ids: []
+  conflict_ids: []
+  source_links:
+  - 'Drive: D17__*'
+  output_link: null
+  next_action: Executar PF-24 (reconciliação cruzada depends_on/blocks) — NA-03.
+  automation_level: A4
+  legacy_ids:
+  - D17-DOC-PEP-001
+  acronym: PEP
+- artifact_id: D18-DOC-PCE-001
+  program_id: EXECUTAR
+  portfolio_id: null
+  macroarea_id: A00
+  domain_id: D18
+  subdomain_id: null
+  lifecycle_stage_id: null
+  gate_id: null
+  artifact_type: MACRO
+  template_id: null
+  title: Plano de Contratos e Esquemas
+  version: 1.0.0
+  required: true
+  status: PRE_PREENCHIDO
+  approval_status: PENDENTE
+  owner: A_DEFINIR
+  approver: A_DEFINIR
+  depends_on: []
+  blocks: []
+  input_artifact_ids: []
+  output_artifact_ids: []
+  acceptance_criteria: []
+  evidence_ids:
+  - D18-DOC-PCE-001-EVD
+  gap_ids: []
+  conflict_ids: []
+  source_links:
+  - 'Drive: D18__*'
+  output_link: null
+  next_action: Executar PF-24 (reconciliação cruzada depends_on/blocks) — NA-03.
+  automation_level: A4
+  legacy_ids:
+  - D18-DOC-PCE-001
+  acronym: PCE
+- artifact_id: D19-DOC-PAC-001
+  program_id: EXECUTAR
+  portfolio_id: null
+  macroarea_id: A11
+  domain_id: D19
+  subdomain_id: null
+  lifecycle_stage_id: null
+  gate_id: null
+  artifact_type: MACRO
+  template_id: null
+  title: Plano de Assets e CTAs
+  version: 1.0.0
+  required: true
+  status: PRE_PREENCHIDO
+  approval_status: PENDENTE
+  owner: A_DEFINIR
+  approver: A_DEFINIR
+  depends_on: []
+  blocks: []
+  input_artifact_ids: []
+  output_artifact_ids: []
+  acceptance_criteria: []
+  evidence_ids:
+  - D19-DOC-PAC-001-EVD
+  gap_ids: []
+  conflict_ids: []
+  source_links:
+  - 'Drive: D19__*'
+  output_link: null
+  next_action: Executar PF-24 (reconciliação cruzada depends_on/blocks) — NA-03.
+  automation_level: A4
+  legacy_ids:
+  - D19-DOC-PAC-001
+  acronym: PAC
+- artifact_id: D20-DOC-PPR-001
+  program_id: EXECUTAR
+  portfolio_id: null
+  macroarea_id: A11
+  domain_id: D20
+  subdomain_id: null
+  lifecycle_stage_id: null
+  gate_id: null
+  artifact_type: MACRO
+  template_id: null
+  title: Plano de Plataformas e Repositórios
+  version: 1.0.0
+  required: true
+  status: PRE_PREENCHIDO
+  approval_status: PENDENTE
+  owner: A_DEFINIR
+  approver: A_DEFINIR
+  depends_on: []
+  blocks: []
+  input_artifact_ids: []
+  output_artifact_ids: []
+  acceptance_criteria: []
+  evidence_ids:
+  - D20-DOC-PPR-001-EVD
+  gap_ids: []
+  conflict_ids: []
+  source_links:
+  - 'Drive: D20__*'
+  output_link: null
+  next_action: Executar PF-24 (reconciliação cruzada depends_on/blocks) — NA-03.
+  automation_level: A4
+  legacy_ids:
+  - D20-DOC-PPR-001
+  acronym: PPR
+- artifact_id: D21-DOC-PWB-001
+  program_id: EXECUTAR
+  portfolio_id: null
+  macroarea_id: A10
+  domain_id: D21
+  subdomain_id: null
+  lifecycle_stage_id: null
+  gate_id: null
+  artifact_type: MACRO
+  template_id: null
+  title: Plano de Workbooks
+  version: 1.0.0
+  required: true
+  status: PRE_PREENCHIDO
+  approval_status: PENDENTE
+  owner: A_DEFINIR
+  approver: A_DEFINIR
+  depends_on: []
+  blocks: []
+  input_artifact_ids: []
+  output_artifact_ids: []
+  acceptance_criteria: []
+  evidence_ids:
+  - D21-DOC-PWB-001-EVD
+  gap_ids: []
+  conflict_ids: []
+  source_links:
+  - 'Drive: D21__*'
+  output_link: null
+  next_action: Executar PF-24 (reconciliação cruzada depends_on/blocks) — NA-03.
+  automation_level: A4
+  legacy_ids:
+  - D21-DOC-PWB-001
+  acronym: PWB
+- artifact_id: D22-DOC-DRL-001
+  program_id: EXECUTAR
+  portfolio_id: null
+  macroarea_id: A10
+  domain_id: D22
+  subdomain_id: null
+  lifecycle_stage_id: null
+  gate_id: null
+  artifact_type: MACRO
+  template_id: null
+  title: Decision and Register Log do Ecossistema
+  version: 1.0.0
+  required: true
+  status: PRE_PREENCHIDO
+  approval_status: PENDENTE
+  owner: A_DEFINIR
+  approver: A_DEFINIR
+  depends_on: []
+  blocks: []
+  input_artifact_ids: []
+  output_artifact_ids: []
+  acceptance_criteria: []
+  evidence_ids:
+  - D22-DOC-DRL-001-EVD
+  gap_ids: []
+  conflict_ids: []
+  source_links:
+  - 'Drive: D22__*'
+  output_link: null
+  next_action: Executar PF-24 (reconciliação cruzada depends_on/blocks) — NA-03.
+  automation_level: A4
+  legacy_ids:
+  - D22-DOC-DRL-001
+  acronym: DRL
+- artifact_id: D23-DOC-PBL-001
+  program_id: EXECUTAR
+  portfolio_id: null
+  macroarea_id: A10
+  domain_id: D23
+  subdomain_id: null
+  lifecycle_stage_id: null
+  gate_id: null
+  artifact_type: MACRO
+  template_id: null
+  title: Plano de Blueprints
+  version: 1.0.0
+  required: true
+  status: PRE_PREENCHIDO
+  approval_status: PENDENTE
+  owner: A_DEFINIR
+  approver: A_DEFINIR
+  depends_on: []
+  blocks: []
+  input_artifact_ids: []
+  output_artifact_ids: []
+  acceptance_criteria: []
+  evidence_ids:
+  - D23-DOC-PBL-001-EVD
+  gap_ids: []
+  conflict_ids: []
+  source_links:
+  - 'Drive: D23__*'
+  output_link: null
+  next_action: Executar PF-24 (reconciliação cruzada depends_on/blocks) — NA-03.
+  automation_level: A4
+  legacy_ids:
+  - D23-DOC-PBL-001
+  acronym: PBL

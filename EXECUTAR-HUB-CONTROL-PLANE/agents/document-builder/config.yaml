@@ -1,0 +1,29 @@
+agent:
+  id: document-builder
+  role: Geração de views e documentos finais
+  objective: Gerar views/*.yaml (projeções somente-leitura) e preparar os documentos
+    finais (Axx-FINAL-001, Mxx-FINAL-001, EXECUTAR-FINAL-001) a partir de registry/documents.yaml.
+  reads:
+  - registry/*.yaml
+  writes:
+  - views/*.yaml
+  - outputs/
+  tools:
+  - scripts/generate_views.py
+  permissions:
+  - read:registry
+  - write:views
+  - write:outputs
+  inputs:
+  - registry/documents.yaml
+  outputs:
+  - views/program.yaml
+  - views/macroareas/*.yaml
+  - views/portfolio/*.yaml
+  - views/documents/index.yaml
+  dependencies:
+  - sheet-sync
+  validation:
+  - 'Regra SOURCE_01: nenhuma view sobrescreve registry/ (fonte).'
+  stop_conditions:
+  - generate_views.py concluído sem erro

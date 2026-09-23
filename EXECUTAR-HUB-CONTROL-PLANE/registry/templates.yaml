@@ -1,0 +1,185 @@
+- template_id: TPL-CHARTER-001
+  artifact_type: CHARTER
+  version: 1.0.0
+  required_fields: []
+  applicable_macroareas:
+  - D0
+  applicable_domains: []
+  applicable_portfolio_types:
+  - PRODUCT_INITIATIVE
+- template_id: TPL-BUSINESS-001
+  artifact_type: BUSINESS
+  version: 1.0.0
+  required_fields: []
+  applicable_macroareas:
+  - A00
+  - A01
+  applicable_domains: []
+  applicable_portfolio_types:
+  - PRODUCT_INITIATIVE
+- template_id: TPL-PRD-001
+  artifact_type: PRD
+  version: 1.0.0
+  required_fields: []
+  applicable_macroareas:
+  - A02
+  applicable_domains: []
+  applicable_portfolio_types:
+  - PRODUCT_INITIATIVE
+- template_id: TPL-UX-001
+  artifact_type: UX
+  version: 1.0.0
+  required_fields: []
+  applicable_macroareas:
+  - A02
+  applicable_domains: []
+  applicable_portfolio_types:
+  - PRODUCT_INITIATIVE
+- template_id: TPL-DRP-001
+  artifact_type: DRP
+  version: 1.0.0
+  required_fields: []
+  applicable_macroareas:
+  - A03
+  applicable_domains: []
+  applicable_portfolio_types:
+  - PRODUCT_INITIATIVE
+- template_id: TPL-FUNCTIONAL_REQ-001
+  artifact_type: FUNCTIONAL_REQUIREMENTS
+  version: 1.0.0
+  required_fields: []
+  applicable_macroareas:
+  - A03
+  - A04
+  applicable_domains: []
+  applicable_portfolio_types:
+  - PRODUCT_INITIATIVE
+- template_id: TPL-ACCEPTANCE_CRITERIA-001
+  artifact_type: ACCEPTANCE_CRITERIA
+  version: 1.0.0
+  required_fields: []
+  applicable_macroareas:
+  - A03
+  - A04
+  applicable_domains: []
+  applicable_portfolio_types:
+  - PRODUCT_INITIATIVE
+- template_id: TPL-NFR-001
+  artifact_type: NFR
+  version: 1.0.0
+  required_fields: []
+  applicable_macroareas:
+  - A04
+  applicable_domains: []
+  applicable_portfolio_types:
+  - PRODUCT_INITIATIVE
+- template_id: TPL-DATA_INTEGRATION-001
+  artifact_type: DATA_INTEGRATION_REQUIREMENTS
+  version: 1.0.0
+  required_fields: []
+  applicable_macroareas:
+  - A04
+  - A06
+  applicable_domains: []
+  applicable_portfolio_types:
+  - PRODUCT_INITIATIVE
+- template_id: TPL-ANALYTICS-001
+  artifact_type: ANALYTICS
+  version: 1.0.0
+  required_fields: []
+  applicable_macroareas:
+  - A06
+  applicable_domains: []
+  applicable_portfolio_types:
+  - PRODUCT_INITIATIVE
+- template_id: TPL-ADR-001
+  artifact_type: ADR
+  version: 1.0.0
+  required_fields: []
+  applicable_macroareas:
+  - A04
+  applicable_domains: []
+  applicable_portfolio_types:
+  - PRODUCT_INITIATIVE
+- template_id: TPL-SPEC-001
+  artifact_type: SPEC
+  version: 1.0.0
+  required_fields: []
+  applicable_macroareas:
+  - A04
+  applicable_domains: []
+  applicable_portfolio_types:
+  - PRODUCT_INITIATIVE
+- template_id: TPL-TEST-001
+  artifact_type: TEST
+  version: 1.0.0
+  required_fields: []
+  applicable_macroareas:
+  - A04
+  applicable_domains: []
+  applicable_portfolio_types:
+  - PRODUCT_INITIATIVE
+- template_id: TPL-RELEASE-001
+  artifact_type: RELEASE
+  version: 1.0.0
+  required_fields: []
+  applicable_macroareas:
+  - A05
+  applicable_domains: []
+  applicable_portfolio_types:
+  - PRODUCT_INITIATIVE
+- template_id: TPL-DEPLOY-001
+  artifact_type: DEPLOY
+  version: 1.0.0
+  required_fields: []
+  applicable_macroareas:
+  - A05
+  applicable_domains: []
+  applicable_portfolio_types:
+  - PRODUCT_INITIATIVE
+- template_id: TPL-RUNBOOK-001
+  artifact_type: RUNBOOK
+  version: 1.0.0
+  required_fields: []
+  applicable_macroareas:
+  - A05
+  applicable_domains: []
+  applicable_portfolio_types:
+  - PRODUCT_INITIATIVE
+- template_id: TPL-GTM-001
+  artifact_type: GTM
+  version: 1.0.0
+  required_fields: []
+  applicable_macroareas:
+  - A01
+  - A08
+  applicable_domains: []
+  applicable_portfolio_types:
+  - PRODUCT_INITIATIVE
+- template_id: TPL-MEASUREMENT-001
+  artifact_type: MEASUREMENT
+  version: 1.0.0
+  required_fields: []
+  applicable_macroareas:
+  - A06
+  applicable_domains: []
+  applicable_portfolio_types:
+  - PRODUCT_INITIATIVE
+- template_id: TPL-LEARNING-001
+  artifact_type: LEARNING
+  version: 1.0.0
+  required_fields: []
+  applicable_macroareas:
+  - A06
+  applicable_domains: []
+  applicable_portfolio_types:
+  - PRODUCT_INITIATIVE
+- template_id: TPL-FINAL_DOSSIER-001
+  artifact_type: FINAL_DOSSIER
+  version: 1.0.0
+  required_fields: []
+  applicable_macroareas:
+  - A00
+  applicable_domains: []
+  applicable_portfolio_types:
+  - PRODUCT_INITIATIVE

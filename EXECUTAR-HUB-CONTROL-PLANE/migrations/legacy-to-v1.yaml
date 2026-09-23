@@ -1,0 +1,150 @@
+schema_version: 1.0.0
+id_map:
+- legacy_id: D01-DOC-DDE-001
+  canonical_id: D01-DOC-DDE-001
+  object_type: artifact
+  note: ID de origem já em formato canônico; preservado sem alteração.
+- legacy_id: D01-DOC-TAP-001
+  canonical_id: D01-DOC-TAP-001
+  object_type: artifact
+  note: ID de origem já em formato canônico; preservado sem alteração.
+- legacy_id: D01-DOC-MNE-001
+  canonical_id: D01-DOC-MNE-001
+  object_type: artifact
+  note: ID de origem já em formato canônico; preservado sem alteração.
+- legacy_id: D01-DOC-MRE-001
+  canonical_id: D01-DOC-MRE-001
+  object_type: artifact
+  note: ID de origem já em formato canônico; preservado sem alteração.
+- legacy_id: D02-DOC-DGRC-001
+  canonical_id: D02-DOC-DGRC-001
+  object_type: artifact
+  note: ID de origem já em formato canônico; preservado sem alteração.
+- legacy_id: D02-DOC-MRC-001
+  canonical_id: D02-DOC-MRC-001
+  object_type: artifact
+  note: ID de origem já em formato canônico; preservado sem alteração.
+- legacy_id: D02-DOC-PPT-001
+  canonical_id: D02-DOC-PPT-001
+  object_type: artifact
+  note: ID de origem já em formato canônico; preservado sem alteração.
+- legacy_id: D03-DOC-PFO-001
+  canonical_id: D03-DOC-PFO-001
+  object_type: artifact
+  note: ID de origem já em formato canônico; preservado sem alteração.
+- legacy_id: D03-DOC-MFO-001
+  canonical_id: D03-DOC-MFO-001
+  object_type: artifact
+  note: ID de origem já em formato canônico; preservado sem alteração.
+- legacy_id: D04-DOC-PPC-001
+  canonical_id: D04-DOC-PPC-001
+  object_type: artifact
+  note: ID de origem já em formato canônico; preservado sem alteração.
+- legacy_id: D05-DOC-EPGD-001
+  canonical_id: D05-DOC-EPGD-001
+  object_type: artifact
+  note: ID de origem já em formato canônico; preservado sem alteração.
+- legacy_id: D05-DOC-DCM-001
+  canonical_id: D05-DOC-DCM-001
+  object_type: artifact
+  note: ID de origem já em formato canônico; preservado sem alteração.
+- legacy_id: D06-DOC-EGC-001
+  canonical_id: D06-DOC-EGC-001
+  object_type: artifact
+  note: ID de origem já em formato canônico; preservado sem alteração.
+- legacy_id: D06-DOC-RMI-001
+  canonical_id: D06-DOC-RMI-001
+  object_type: artifact
+  note: ID de origem já em formato canônico; preservado sem alteração.
+- legacy_id: D07-DOC-PEX-001
+  canonical_id: D07-DOC-PEX-001
+  object_type: artifact
+  note: ID de origem já em formato canônico; preservado sem alteração.
+- legacy_id: D07-DOC-PIM-001
+  canonical_id: D07-DOC-PIM-001
+  object_type: artifact
+  note: ID de origem já em formato canônico; preservado sem alteração.
+- legacy_id: D08-DOC-MOP-001
+  canonical_id: D08-DOC-MOP-001
+  object_type: artifact
+  note: ID de origem já em formato canônico; preservado sem alteração.
+- legacy_id: D08-DOC-RUN-001
+  canonical_id: D08-DOC-RUN-001
+  object_type: artifact
+  note: ID de origem já em formato canônico; preservado sem alteração.
+- legacy_id: D09-DOC-PPE-001
+  canonical_id: D09-DOC-PPE-001
+  object_type: artifact
+  note: ID de origem já em formato canônico; preservado sem alteração.
+- legacy_id: D09-DOC-DEB-001
+  canonical_id: D09-DOC-DEB-001
+  object_type: artifact
+  note: ID de origem já em formato canônico; preservado sem alteração.
+- legacy_id: D10-DOC-DRP-001
+  canonical_id: D10-DOC-DRP-001
+  object_type: artifact
+  note: ID de origem já em formato canônico; preservado sem alteração.
+- legacy_id: D10-DOC-PRD-001
+  canonical_id: D10-DOC-PRD-001
+  object_type: artifact
+  note: ID de origem já em formato canônico; preservado sem alteração.
+- legacy_id: D11-DOC-EEP-001
+  canonical_id: D11-DOC-EEP-001
+  object_type: artifact
+  note: ID de origem já em formato canônico; preservado sem alteração.
+- legacy_id: D11-DOC-DSI-001
+  canonical_id: D11-DOC-DSI-001
+  object_type: artifact
+  note: ID de origem já em formato canônico; preservado sem alteração.
+- legacy_id: D12-DOC-ETE-001
+  canonical_id: D12-DOC-ETE-001
+  object_type: artifact
+  note: ID de origem já em formato canônico; preservado sem alteração.
+- legacy_id: D13-DOC-DRM-001
+  canonical_id: D13-DOC-DRM-001
+  object_type: artifact
+  note: ID de origem já em formato canônico; preservado sem alteração.
+- legacy_id: D13-DOC-GTM-001
+  canonical_id: D13-DOC-GTM-001
+  object_type: artifact
+  note: ID de origem já em formato canônico; preservado sem alteração.
+- legacy_id: D14-DOC-PCV-001
+  canonical_id: D14-DOC-PCV-001
+  object_type: artifact
+  note: ID de origem já em formato canônico; preservado sem alteração.
+- legacy_id: D15-DOC-PASC-001
+  canonical_id: D15-DOC-PASC-001
+  object_type: artifact
+  note: ID de origem já em formato canônico; preservado sem alteração.
+- legacy_id: D16-DOC-PEM-001
+  canonical_id: D16-DOC-PEM-001
+  object_type: artifact
+  note: ID de origem já em formato canônico; preservado sem alteração.
+- legacy_id: D17-DOC-PEP-001
+  canonical_id: D17-DOC-PEP-001
+  object_type: artifact
+  note: ID de origem já em formato canônico; preservado sem alteração.
+- legacy_id: D18-DOC-PCE-001
+  canonical_id: D18-DOC-PCE-001
+  object_type: artifact
+  note: ID de origem já em formato canônico; preservado sem alteração.
+- legacy_id: D19-DOC-PAC-001
+  canonical_id: D19-DOC-PAC-001
+  object_type: artifact
+  note: ID de origem já em formato canônico; preservado sem alteração.
+- legacy_id: D20-DOC-PPR-001
+  canonical_id: D20-DOC-PPR-001
+  object_type: artifact
+  note: ID de origem já em formato canônico; preservado sem alteração.
+- legacy_id: D21-DOC-PWB-001
+  canonical_id: D21-DOC-PWB-001
+  object_type: artifact
+  note: ID de origem já em formato canônico; preservado sem alteração.
+- legacy_id: D22-DOC-DRL-001
+  canonical_id: D22-DOC-DRL-001
+  object_type: artifact
+  note: ID de origem já em formato canônico; preservado sem alteração.
+- legacy_id: D23-DOC-PBL-001
+  canonical_id: D23-DOC-PBL-001
+  object_type: artifact
+  note: ID de origem já em formato canônico; preservado sem alteração.

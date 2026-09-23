@@ -1,0 +1,5 @@
+macroarea_id: A05
+name: Operações, Plataforma, Deploy e Segurança
+artifact_ids:
+- D08-DOC-MOP-001
+- D08-DOC-RUN-001

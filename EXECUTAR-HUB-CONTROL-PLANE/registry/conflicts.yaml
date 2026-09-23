@@ -1,0 +1,108 @@
+- conflict_id: D22-DEC-CFL-01
+  domain_id: D06/D22
+  document_id: ''
+  field_id: ''
+  issue: 'Contagem de documentos: 37 (Handoff) vs 46 (GOVERNANCA) — Handoff.md (EXECUTAR-DOC-PREFILL-001)
+    define escopo de 37 documentos (23 macro + 14 especializados); GOVERNANCA (Drive)
+    declara ''46 documentos registrados no índice documental'' sem enumerá-los.'
+  resolution_rule: 'Precedencia conforme regra do EXECUTAR-DOC-PREFILL-001: fonte
+    mais recente e de maior autoridade vence; sem isso, permanece CONFLICT.'
+  requires_human_decision: true
+  status: ABERTO
+- conflict_id: D22-DEC-CFL-02
+  domain_id: D07/D13/D14
+  document_id: ''
+  field_id: ''
+  issue: Janela de lançamento GTM 07/09/2026 expirada sem verificação — Plano GTM
+    escrito em 25/08/2026 para lançamento em 07/09/2026; na data desta extração (22/09/2026)
+    o cronograma está vencido e seu estado real não foi verificado.
+  resolution_rule: 'Precedencia conforme regra do EXECUTAR-DOC-PREFILL-001: fonte
+    mais recente e de maior autoridade vence; sem isso, permanece CONFLICT.'
+  requires_human_decision: true
+  status: ABERTO
+- conflict_id: D22-DEC-CFL-03
+  domain_id: D14
+  document_id: ''
+  field_id: ''
+  issue: 'Ancoragem de preço: piloto R$700 vs benchmark de mercado R$2.500-4.000 —
+    Modelo anterior registrava R$700 por projeto de uma semana; benchmark de mercado
+    mostra R$2.500/15 dias e R$4.000/30 dias para mapeamento puro; consultoria a R$300/hora.'
+  resolution_rule: 'Precedencia conforme regra do EXECUTAR-DOC-PREFILL-001: fonte
+    mais recente e de maior autoridade vence; sem isso, permanece CONFLICT.'
+  requires_human_decision: true
+  status: ABERTO
+- conflict_id: D22-DEC-CFL-04
+  domain_id: D16
+  document_id: ''
+  field_id: ''
+  issue: Nomenclatura de área D16 divergente — GOVERNANCA usa 'Mídias Sociais e Distribuição
+    Digital'; estrutura de pastas do Drive usa 'Mídias Sociais e Estratégias'. Handoff.md
+    já registra ambas como aliases.
+  resolution_rule: 'Precedencia conforme regra do EXECUTAR-DOC-PREFILL-001: fonte
+    mais recente e de maior autoridade vence; sem isso, permanece CONFLICT.'
+  requires_human_decision: true
+  status: ABERTO
+- conflict_id: D22-DEC-CFL-05
+  domain_id: D18
+  document_id: ''
+  field_id: ''
+  issue: Nomenclatura de área D18 divergente — 'Contratos e Esquemas' (GOVERNANCA/Handoff)
+    vs 'Contratos e Schemas' (estrutura de pastas do Drive). Handoff.md já registra
+    ambas como aliases.
+  resolution_rule: 'Precedencia conforme regra do EXECUTAR-DOC-PREFILL-001: fonte
+    mais recente e de maior autoridade vence; sem isso, permanece CONFLICT.'
+  requires_human_decision: true
+  status: ABERTO
+- conflict_id: D22-DEC-GOVSPEC-A01
+  domain_id: D06/D07
+  document_id: ''
+  field_id: ''
+  issue: 'Matriz de 16 áreas e GOV-DOM-006 usam numeração diferente para vários domínios
+    ( — Matriz de 16 áreas e GOV-DOM-006 usam numeração diferente para vários domínios
+    (ex.: D02 é Jurídico numa e Dados na outra).'
+  resolution_rule: 'Precedencia conforme regra do EXECUTAR-DOC-PREFILL-001: fonte
+    mais recente e de maior autoridade vence; sem isso, permanece CONFLICT.'
+  requires_human_decision: true
+  status: ABERTO
+- conflict_id: D22-DEC-GOVSPEC-A02
+  domain_id: D06/D07
+  document_id: ''
+  field_id: ''
+  issue: 'Duas estruturas de endereço concorrentes: D01.01-IDE-001 e domínio->área->subáre
+    — Duas estruturas de endereço concorrentes: D01.01-IDE-001 e domínio->área->subárea->objeto.'
+  resolution_rule: 'Precedencia conforme regra do EXECUTAR-DOC-PREFILL-001: fonte
+    mais recente e de maior autoridade vence; sem isso, permanece CONFLICT.'
+  requires_human_decision: true
+  status: ABERTO
+- conflict_id: D22-DEC-GOVSPEC-A05
+  domain_id: D06/D07
+  document_id: ''
+  field_id: ''
+  issue: Painel declara 39 peças de conteúdo mas a soma própria resulta em 45-47 incluind
+    — Painel declara 39 peças de conteúdo mas a soma própria resulta em 45-47 incluindo
+    os três ebooks.
+  resolution_rule: 'Precedencia conforme regra do EXECUTAR-DOC-PREFILL-001: fonte
+    mais recente e de maior autoridade vence; sem isso, permanece CONFLICT.'
+  requires_human_decision: true
+  status: ABERTO
+- conflict_id: D22-DEC-GOVSPEC-A07
+  domain_id: D06/D07
+  document_id: ''
+  field_id: ''
+  issue: 'Artigo: 1.900-2.500 palavras num trecho vs 1.800-2.400 noutro. — Artigo:
+    1.900-2.500 palavras num trecho vs 1.800-2.400 noutro.'
+  resolution_rule: 'Precedencia conforme regra do EXECUTAR-DOC-PREFILL-001: fonte
+    mais recente e de maior autoridade vence; sem isso, permanece CONFLICT.'
+  requires_human_decision: true
+  status: ABERTO
+- conflict_id: D22-DEC-GOVSPEC-A16
+  domain_id: D06/D07
+  document_id: ''
+  field_id: ''
+  issue: Runbook de 19 tarefas, referência a tarefas 01-22 e outro registro de dez
+    tarefa — Runbook de 19 tarefas, referência a tarefas 01-22 e outro registro de
+    dez tarefas.
+  resolution_rule: 'Precedencia conforme regra do EXECUTAR-DOC-PREFILL-001: fonte
+    mais recente e de maior autoridade vence; sem isso, permanece CONFLICT.'
+  requires_human_decision: true
+  status: ABERTO

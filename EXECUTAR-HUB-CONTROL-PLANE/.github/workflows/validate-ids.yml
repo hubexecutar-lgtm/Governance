@@ -1,0 +1,19 @@
+name: validate-ids
+on:
+  pull_request:
+    paths: ["registry/**"]
+  push:
+    branches: [main]
+    paths: ["registry/**"]
+jobs:
+  validate-ids:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install -r requirements.txt
+      - run: python3 scripts/validate_ids.py
+      - run: python3 scripts/validate_legacy_ids.py
+      - run: python3 scripts/validate_orphans.py

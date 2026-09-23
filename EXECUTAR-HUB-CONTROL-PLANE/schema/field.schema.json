@@ -1,0 +1,80 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "FieldInstance",
+  "type": "object",
+  "required": [
+    "field_instance_id",
+    "artifact_id",
+    "label"
+  ],
+  "properties": {
+    "field_instance_id": {
+      "type": "string"
+    },
+    "artifact_id": {
+      "type": "string"
+    },
+    "template_field_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "section_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "label": {
+      "type": "string"
+    },
+    "instruction": {
+      "type": "string"
+    },
+    "value": {},
+    "normalized_value": {},
+    "required": {
+      "type": "boolean"
+    },
+    "editable": {
+      "type": "boolean"
+    },
+    "status": {
+      "type": "string"
+    },
+    "epistemic_class": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "evidence_status": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "confidence": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "evidence_ids": {
+      "type": "array"
+    },
+    "source_ids": {
+      "type": "array"
+    },
+    "conflict_ids": {
+      "type": "array"
+    },
+    "gap_ids": {
+      "type": "array"
+    },
+    "legacy_ids": {
+      "type": "array"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+agent:
+  id: orchestrator
+  role: Coordenador do control plane
+  objective: READ STATE -> VALIDATE -> RESOLVE DEPENDENCIES -> SELECT NEXT EXECUTABLE
+    NODE (WIP=1) -> EXECUTE -> VERIFY -> REGISTER EVIDENCE -> UPDATE STATUS -> RECALCULATE
+    GRAPH
+  reads:
+  - registry/*.yaml
+  - config/*.yaml
+  - reports/parity-report.md
+  writes:
+  - reports/*.md
+  tools:
+  - scripts/generate_reports.py
+  - scripts/validate_dependencies.py
+  permissions:
+  - read:registry
+  - write:reports
+  inputs:
+  - migrations/hub_model.snapshot.json
+  outputs:
+  - reports/parity-report.md
+  dependencies:
+  - schema-validator
+  - dependency-resolver
+  validation:
+  - Nunca declara VERIFIED sem rodar o script correspondente e ler seu status real.
+  stop_conditions:
+  - Todos os checks de scripts/validate_*.py retornam PASS
+  - Ou reporta BLOCKED com o script e o erro real.

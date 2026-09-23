@@ -1,0 +1,47 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Evidence",
+  "type": "object",
+  "required": [
+    "evidence_id",
+    "artifact_id"
+  ],
+  "properties": {
+    "evidence_id": {
+      "type": "string"
+    },
+    "artifact_id": {
+      "type": "string"
+    },
+    "total_fields": {
+      "type": "integer"
+    },
+    "found_direct": {
+      "type": "integer"
+    },
+    "found_external": {
+      "type": "integer"
+    },
+    "found_proposed": {
+      "type": "integer"
+    },
+    "conflict": {
+      "type": "integer"
+    },
+    "not_found": {
+      "type": "integer"
+    },
+    "coverage_percent": {
+      "type": "number"
+    },
+    "evidence_status": {
+      "enum": [
+        "MISSING",
+        "PROPOSED",
+        "DERIVED",
+        "EXTERNAL",
+        "DIRECT"
+      ]
+    }
+  }
+}

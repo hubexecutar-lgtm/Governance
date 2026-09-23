@@ -1,0 +1,96 @@
+- gate_id: G00
+  name: INITIATIVE_READY
+  scope: PROGRAM
+  required_artifact_types: []
+  required_statuses:
+  - APPROVED
+  decision: PENDING
+  evidence_ids: []
+- gate_id: G01
+  name: BUSINESS_READY
+  scope: PROGRAM
+  required_artifact_types: []
+  required_statuses:
+  - APPROVED
+  decision: PENDING
+  evidence_ids: []
+- gate_id: G02
+  name: PRODUCT_READY
+  scope: PROGRAM
+  required_artifact_types: []
+  required_statuses:
+  - APPROVED
+  decision: PENDING
+  evidence_ids: []
+- gate_id: G03
+  name: DEVELOPMENT_READY
+  scope: PROGRAM
+  required_artifact_types: []
+  required_statuses:
+  - APPROVED
+  decision: PENDING
+  evidence_ids: []
+- gate_id: G04
+  name: ENGINEERING_READY
+  scope: PROGRAM
+  required_artifact_types: []
+  required_statuses:
+  - APPROVED
+  decision: PENDING
+  evidence_ids: []
+- gate_id: G05
+  name: RELEASE_READY
+  scope: PROGRAM
+  required_artifact_types: []
+  required_statuses:
+  - APPROVED
+  decision: PENDING
+  evidence_ids: []
+- gate_id: G06
+  name: GO_LIVE
+  scope: PROGRAM
+  required_artifact_types: []
+  required_statuses:
+  - APPROVED
+  decision: PENDING
+  evidence_ids: []
+- gate_id: G07
+  name: OPERATIONAL_READY
+  scope: PROGRAM
+  required_artifact_types: []
+  required_statuses:
+  - APPROVED
+  decision: PENDING
+  evidence_ids: []
+- gate_id: G08
+  name: GTM_READY
+  scope: PROGRAM
+  required_artifact_types: []
+  required_statuses:
+  - APPROVED
+  decision: PENDING
+  evidence_ids: []
+- gate_id: G09
+  name: MEASURED
+  scope: PROGRAM
+  required_artifact_types: []
+  required_statuses:
+  - APPROVED
+  decision: PENDING
+  evidence_ids: []
+- gate_id: G10
+  name: LEARNING_CAPTURED
+  scope: PROGRAM
+  required_artifact_types: []
+  required_statuses:
+  - APPROVED
+  decision: PENDING
+  evidence_ids: []
+- gate_id: G11
+  name: DOCUMENTED
+  scope: PROGRAM
+  required_artifact_types: []
+  required_statuses:
+  - APPROVED
+  decision: PENDING
+  evidence_ids: []

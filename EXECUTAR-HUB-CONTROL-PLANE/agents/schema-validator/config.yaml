@@ -1,0 +1,22 @@
+agent:
+  id: schema-validator
+  role: Validação de schema JSON
+  objective: Garantir que cada linha de cada registry respeita seu JSON Schema em
+    schema/.
+  reads:
+  - registry/*.yaml
+  - schema/*.schema.json
+  writes: []
+  tools:
+  - scripts/validate_schema.py
+  permissions:
+  - read:registry
+  - read:schema
+  inputs: []
+  outputs:
+  - schema_error_count
+  dependencies: []
+  validation:
+  - schema_error_count == 0
+  stop_conditions:
+  - validate_schema.py retorna status PASS

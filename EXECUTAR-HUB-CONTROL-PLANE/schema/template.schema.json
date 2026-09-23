@@ -1,0 +1,33 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Template",
+  "type": "object",
+  "required": [
+    "template_id",
+    "artifact_type",
+    "version"
+  ],
+  "properties": {
+    "template_id": {
+      "type": "string"
+    },
+    "artifact_type": {
+      "type": "string"
+    },
+    "version": {
+      "type": "string"
+    },
+    "required_fields": {
+      "type": "array"
+    },
+    "applicable_macroareas": {
+      "type": "array"
+    },
+    "applicable_domains": {
+      "type": "array"
+    },
+    "applicable_portfolio_types": {
+      "type": "array"
+    }
+  }
+}

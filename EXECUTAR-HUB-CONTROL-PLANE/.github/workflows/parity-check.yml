@@ -1,0 +1,26 @@
+name: parity-check
+on:
+  pull_request:
+  push:
+    branches: [main]
+  workflow_dispatch:
+jobs:
+  parity-check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install -r requirements.txt
+      - name: Run structural validations (no live Sheets snapshot in CI)
+        run: bash runners/validate-control-plane.sh
+      - name: Run pytest suite
+        run: python3 -m pytest tests/ -q
+      - name: Generate report (registry-only; Sheets parity requires SHEET_SNAPSHOT_PATH)
+        run: python3 scripts/generate_reports.py || true
+      - name: Upload parity report
+        uses: actions/upload-artifact@v4
+        with:
+          name: parity-report
+          path: reports/parity-report.md

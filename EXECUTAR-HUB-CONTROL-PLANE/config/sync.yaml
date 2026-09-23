@@ -1,0 +1,5 @@
+authority:
+  google_sheets: PRIMARY_OPERATIONAL_SOURCE
+  github: VERSIONED_CODE_MIRROR
+sync_direction_initial: GOOGLE_SHEETS_TO_GITHUB
+source_sheet_id: 1AlEgMNGSBpgJBkgeqdFzlKWeez8ftSko

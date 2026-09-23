@@ -1,0 +1,217 @@
+- domain_id: D0
+  macroarea_id: A00
+  name: Pmbook Governança e Operação
+  description: Charter integrado / PMBOK do programa EXECUTAR (D0.01 ficha de iniciativa).
+  status: ACTIVE
+  legacy_ids:
+  - D0_Pmbook-Governanca-Operaco
+  source_refs:
+  - Progama_Master_index.docx
+  - ecossistema_operacional.yaml
+- domain_id: D01
+  macroarea_id: A00
+  name: Gestão Empresarial
+  description: Gestão Empresarial
+  status: ACTIVE
+  legacy_ids:
+  - D01
+  source_refs:
+  - EXECUTAR_CHECKLIST_D01-D23_GRANULAR.yaml
+- domain_id: D02
+  macroarea_id: A00
+  name: Jurídico, Riscos e Conformidade
+  description: Jurídico, Riscos e Conformidade
+  status: ACTIVE
+  legacy_ids:
+  - D02
+  source_refs:
+  - EXECUTAR_CHECKLIST_D01-D23_GRANULAR.yaml
+- domain_id: D03
+  macroarea_id: A00
+  name: Finanças
+  description: Finanças
+  status: ACTIVE
+  legacy_ids:
+  - D03
+  source_refs:
+  - EXECUTAR_CHECKLIST_D01-D23_GRANULAR.yaml
+- domain_id: D04
+  macroarea_id: A07
+  name: Pessoas e Recursos Humanos
+  description: Pessoas e Recursos Humanos
+  status: ACTIVE
+  legacy_ids:
+  - D04
+  source_refs:
+  - EXECUTAR_CHECKLIST_D01-D23_GRANULAR.yaml
+- domain_id: D05
+  macroarea_id: A06
+  name: Dados
+  description: Dados
+  status: ACTIVE
+  legacy_ids:
+  - D05
+  source_refs:
+  - EXECUTAR_CHECKLIST_D01-D23_GRANULAR.yaml
+- domain_id: D06
+  macroarea_id: A06
+  name: Conhecimento e Busca Corporativa
+  description: Conhecimento e Busca Corporativa
+  status: ACTIVE
+  legacy_ids:
+  - D06
+  source_refs:
+  - EXECUTAR_CHECKLIST_D01-D23_GRANULAR.yaml
+- domain_id: D07
+  macroarea_id: A09
+  name: Produtividade e Execução
+  description: Produtividade e Execução
+  status: ACTIVE
+  legacy_ids:
+  - D07
+  source_refs:
+  - EXECUTAR_CHECKLIST_D01-D23_GRANULAR.yaml
+- domain_id: D08
+  macroarea_id: A05
+  name: Operações
+  description: Operações
+  status: ACTIVE
+  legacy_ids:
+  - D08
+  source_refs:
+  - EXECUTAR_CHECKLIST_D01-D23_GRANULAR.yaml
+- domain_id: D09
+  macroarea_id: A06
+  name: Pesquisa e Inovação
+  description: Pesquisa e Inovação
+  status: ACTIVE
+  legacy_ids:
+  - D09
+  source_refs:
+  - EXECUTAR_CHECKLIST_D01-D23_GRANULAR.yaml
+- domain_id: D10
+  macroarea_id: A02
+  name: Gestão de Produto
+  description: Gestão de Produto
+  status: ACTIVE
+  legacy_ids:
+  - D10
+  source_refs:
+  - EXECUTAR_CHECKLIST_D01-D23_GRANULAR.yaml
+- domain_id: D11
+  macroarea_id: A02
+  name: Experiência e Projeto
+  description: Experiência e Projeto
+  status: ACTIVE
+  legacy_ids:
+  - D11
+  source_refs:
+  - EXECUTAR_CHECKLIST_D01-D23_GRANULAR.yaml
+- domain_id: D12
+  macroarea_id: A04
+  name: Engenharia
+  description: Engenharia
+  status: ACTIVE
+  legacy_ids:
+  - D12
+  source_refs:
+  - EXECUTAR_CHECKLIST_D01-D23_GRANULAR.yaml
+- domain_id: D13
+  macroarea_id: A01
+  name: Mercado e Geração de Demanda
+  description: Mercado e Geração de Demanda
+  status: ACTIVE
+  legacy_ids:
+  - D13
+  source_refs:
+  - EXECUTAR_CHECKLIST_D01-D23_GRANULAR.yaml
+- domain_id: D14
+  macroarea_id: A01
+  name: Vendas
+  description: Vendas
+  status: ACTIVE
+  legacy_ids:
+  - D14
+  source_refs:
+  - EXECUTAR_CHECKLIST_D01-D23_GRANULAR.yaml
+- domain_id: D15
+  macroarea_id: A01
+  name: Atendimento e Sucesso do Cliente
+  description: Atendimento e Sucesso do Cliente
+  status: ACTIVE
+  legacy_ids:
+  - D15
+  source_refs:
+  - EXECUTAR_CHECKLIST_D01-D23_GRANULAR.yaml
+- domain_id: D16
+  macroarea_id: A08
+  name: 'Mídias Sociais e Distribuição Digital (alias: Mídias Sociais e Estratégias)'
+  description: 'Mídias Sociais e Distribuição Digital (alias: Mídias Sociais e Estratégias)'
+  status: ACTIVE
+  legacy_ids:
+  - D16
+  source_refs:
+  - EXECUTAR_CHECKLIST_D01-D23_GRANULAR.yaml
+- domain_id: D17
+  macroarea_id: A12
+  name: Emprego e Portfólio
+  description: Emprego e Portfólio
+  status: ACTIVE
+  legacy_ids:
+  - D17
+  source_refs:
+  - EXECUTAR_CHECKLIST_D01-D23_GRANULAR.yaml
+- domain_id: D18
+  macroarea_id: A00
+  name: 'Contratos e Esquemas (alias: Contratos e Schemas)'
+  description: 'Contratos e Esquemas (alias: Contratos e Schemas)'
+  status: ACTIVE
+  legacy_ids:
+  - D18
+  source_refs:
+  - EXECUTAR_CHECKLIST_D01-D23_GRANULAR.yaml
+- domain_id: D19
+  macroarea_id: A11
+  name: Assets e CTAs
+  description: Assets e CTAs
+  status: ACTIVE
+  legacy_ids:
+  - D19
+  source_refs:
+  - EXECUTAR_CHECKLIST_D01-D23_GRANULAR.yaml
+- domain_id: D20
+  macroarea_id: A11
+  name: Plataformas e Repositórios
+  description: Plataformas e Repositórios
+  status: ACTIVE
+  legacy_ids:
+  - D20
+  source_refs:
+  - EXECUTAR_CHECKLIST_D01-D23_GRANULAR.yaml
+- domain_id: D21
+  macroarea_id: A10
+  name: Workbook
+  description: Workbook
+  status: ACTIVE
+  legacy_ids:
+  - D21
+  source_refs:
+  - EXECUTAR_CHECKLIST_D01-D23_GRANULAR.yaml
+- domain_id: D22
+  macroarea_id: A10
+  name: Decision and Register Log
+  description: Decision and Register Log
+  status: ACTIVE
+  legacy_ids:
+  - D22
+  source_refs:
+  - EXECUTAR_CHECKLIST_D01-D23_GRANULAR.yaml
+- domain_id: D23
+  macroarea_id: A10
+  name: Blueprints
+  description: Blueprints
+  status: ACTIVE
+  legacy_ids:
+  - D23
+  source_refs:
+  - EXECUTAR_CHECKLIST_D01-D23_GRANULAR.yaml

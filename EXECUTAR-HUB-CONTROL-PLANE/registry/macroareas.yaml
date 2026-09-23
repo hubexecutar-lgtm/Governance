@@ -1,0 +1,65 @@
+- macroarea_id: A00
+  name: Governança, Estratégia e Gestão
+  status: ACTIVE
+  source_refs:
+  - ADR-EXECUTAR-HUB-001
+- macroarea_id: A01
+  name: Negócio e Go-to-Market
+  status: ACTIVE
+  source_refs:
+  - ADR-EXECUTAR-HUB-001
+- macroarea_id: A02
+  name: Produto e Experiência
+  status: ACTIVE
+  source_refs:
+  - ADR-EXECUTAR-HUB-001
+- macroarea_id: A03
+  name: Handoff Produto → Engenharia
+  status: ACTIVE
+  source_refs:
+  - ADR-EXECUTAR-HUB-001
+- macroarea_id: A04
+  name: Arquitetura, Engenharia e Implementação
+  status: ACTIVE
+  source_refs:
+  - ADR-EXECUTAR-HUB-001
+- macroarea_id: A05
+  name: Operações, Plataforma, Deploy e Segurança
+  status: ACTIVE
+  source_refs:
+  - ADR-EXECUTAR-HUB-001
+- macroarea_id: A06
+  name: Dados, Pesquisa e Conhecimento
+  status: ACTIVE
+  source_refs:
+  - ADR-EXECUTAR-HUB-001
+- macroarea_id: A07
+  name: Corporativo e Suporte
+  status: ACTIVE
+  source_refs:
+  - ADR-EXECUTAR-HUB-001
+- macroarea_id: A08
+  name: Conteúdo, Comunicação e Growth
+  status: ACTIVE
+  source_refs:
+  - ADR-EXECUTAR-HUB-001
+- macroarea_id: A09
+  name: Execução e Planejamento do Trabalho
+  status: ACTIVE
+  source_refs:
+  - ADR-EXECUTAR-HUB-001
+- macroarea_id: A10
+  name: Documentação e Governança do Conhecimento
+  status: ACTIVE
+  source_refs:
+  - ADR-EXECUTAR-HUB-001
+- macroarea_id: A11
+  name: Ferramentas, IA e Ativos Reutilizáveis
+  status: ACTIVE
+  source_refs:
+  - ADR-EXECUTAR-HUB-001
+- macroarea_id: A12
+  name: Stakeholders e Ecossistema
+  status: ACTIVE
+  source_refs:
+  - ADR-EXECUTAR-HUB-001

@@ -1,0 +1,30 @@
+agent:
+  id: audit
+  role: Auditoria final e relatório de paridade
+  objective: Rodar todos os validate_*.py + compare_sheet_registry.py e publicar reports/parity-report.md
+    com dados reais.
+  reads:
+  - registry/*.yaml
+  - schema/*.schema.json
+  - migrations/hub_model.snapshot.json
+  writes:
+  - reports/parity-report.md
+  - reports/migration-report.md
+  tools:
+  - scripts/generate_reports.py
+  permissions:
+  - read:registry
+  - read:schema
+  - write:reports
+  inputs:
+  - snapshot .xlsx do Sheets congelado (opcional, via --sheet)
+  outputs:
+  - reports/parity-report.md
+  dependencies:
+  - schema-validator
+  - dependency-resolver
+  - sheet-sync
+  validation:
+  - Nunca declara parity_percent sem rodar compare_sheet_registry.py de fato.
+  stop_conditions:
+  - Todos os checks retornam PASS, ou BLOCKED é reportado nominalmente.

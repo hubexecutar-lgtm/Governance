@@ -1,0 +1,17 @@
+- source_id: SRC-01
+  name: EXECUTAR_projetosaasentrypoint_EXPANDIDO.xlsx
+  role: UX/structure reference (Release 1 baseline)
+- source_id: SRC-02
+  name: EXECUTAR_CHECKLIST_D01-D23_GRANULAR.yaml
+  role: 'Structured corpus: 23 domains, 37 deliverables, 1125 fields'
+- source_id: SRC-03
+  name: Progama_Master_index.docx
+  role: PM lifecycle taxonomy (D0+D01-D23 x PM01-13), corroborates domain list
+- source_id: SRC-04
+  name: ecossistema_operacional.yaml
+  role: Portfolio (Mxx), macroarea candidate list, PM lifecycle phases, area folder
+    names
+- source_id: SRC-05
+  name: GOV-SPEC-20260907-001
+  role: Upstream governance spec cited inside granular checklist (blocks B01,B02,B04,B07,B08,B09
+    read in full per prefill_limitations)

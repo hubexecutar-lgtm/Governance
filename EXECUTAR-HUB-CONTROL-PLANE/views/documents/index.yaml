@@ -1,0 +1,170 @@
+- document_id: A00-FINAL-001
+  level: MACROAREA
+  scope_id: A00
+  status: NOT_CREATED
+  derives_from: artifacts of this macroarea
+- document_id: A01-FINAL-001
+  level: MACROAREA
+  scope_id: A01
+  status: NOT_CREATED
+  derives_from: artifacts of this macroarea
+- document_id: A02-FINAL-001
+  level: MACROAREA
+  scope_id: A02
+  status: NOT_CREATED
+  derives_from: artifacts of this macroarea
+- document_id: A03-FINAL-001
+  level: MACROAREA
+  scope_id: A03
+  status: NOT_CREATED
+  derives_from: artifacts of this macroarea
+- document_id: A04-FINAL-001
+  level: MACROAREA
+  scope_id: A04
+  status: NOT_CREATED
+  derives_from: artifacts of this macroarea
+- document_id: A05-FINAL-001
+  level: MACROAREA
+  scope_id: A05
+  status: NOT_CREATED
+  derives_from: artifacts of this macroarea
+- document_id: A06-FINAL-001
+  level: MACROAREA
+  scope_id: A06
+  status: NOT_CREATED
+  derives_from: artifacts of this macroarea
+- document_id: A07-FINAL-001
+  level: MACROAREA
+  scope_id: A07
+  status: NOT_CREATED
+  derives_from: artifacts of this macroarea
+- document_id: A08-FINAL-001
+  level: MACROAREA
+  scope_id: A08
+  status: NOT_CREATED
+  derives_from: artifacts of this macroarea
+- document_id: A09-FINAL-001
+  level: MACROAREA
+  scope_id: A09
+  status: NOT_CREATED
+  derives_from: artifacts of this macroarea
+- document_id: A10-FINAL-001
+  level: MACROAREA
+  scope_id: A10
+  status: NOT_CREATED
+  derives_from: artifacts of this macroarea
+- document_id: A11-FINAL-001
+  level: MACROAREA
+  scope_id: A11
+  status: NOT_CREATED
+  derives_from: artifacts of this macroarea
+- document_id: A12-FINAL-001
+  level: MACROAREA
+  scope_id: A12
+  status: NOT_CREATED
+  derives_from: artifacts of this macroarea
+- document_id: S0-FINAL-001
+  level: PORTFOLIO
+  scope_id: S0
+  status: NOT_CREATED
+  derives_from: artifacts of this portfolio item
+- document_id: M0-FINAL-001
+  level: PORTFOLIO
+  scope_id: M0
+  status: NOT_CREATED
+  derives_from: artifacts of this portfolio item
+- document_id: M1-FINAL-001
+  level: PORTFOLIO
+  scope_id: M1
+  status: NOT_CREATED
+  derives_from: artifacts of this portfolio item
+- document_id: M2-FINAL-001
+  level: PORTFOLIO
+  scope_id: M2
+  status: NOT_CREATED
+  derives_from: artifacts of this portfolio item
+- document_id: M2.1-FINAL-001
+  level: PORTFOLIO
+  scope_id: M2.1
+  status: NOT_CREATED
+  derives_from: artifacts of this portfolio item
+- document_id: M3-FINAL-001
+  level: PORTFOLIO
+  scope_id: M3
+  status: NOT_CREATED
+  derives_from: artifacts of this portfolio item
+- document_id: M4-FINAL-001
+  level: PORTFOLIO
+  scope_id: M4
+  status: NOT_CREATED
+  derives_from: artifacts of this portfolio item
+- document_id: M5-FINAL-001
+  level: PORTFOLIO
+  scope_id: M5
+  status: NOT_CREATED
+  derives_from: artifacts of this portfolio item
+- document_id: M6-FINAL-001
+  level: PORTFOLIO
+  scope_id: M6
+  status: NOT_CREATED
+  derives_from: artifacts of this portfolio item
+- document_id: M7-FINAL-001
+  level: PORTFOLIO
+  scope_id: M7
+  status: NOT_CREATED
+  derives_from: artifacts of this portfolio item
+- document_id: M7.1-FINAL-001
+  level: PORTFOLIO
+  scope_id: M7.1
+  status: NOT_CREATED
+  derives_from: artifacts of this portfolio item
+- document_id: M8-FINAL-001
+  level: PORTFOLIO
+  scope_id: M8
+  status: NOT_CREATED
+  derives_from: artifacts of this portfolio item
+- document_id: M9-FINAL-001
+  level: PORTFOLIO
+  scope_id: M9
+  status: NOT_CREATED
+  derives_from: artifacts of this portfolio item
+- document_id: M10-FINAL-001
+  level: PORTFOLIO
+  scope_id: M10
+  status: NOT_CREATED
+  derives_from: artifacts of this portfolio item
+- document_id: M11-FINAL-001
+  level: PORTFOLIO
+  scope_id: M11
+  status: NOT_CREATED
+  derives_from: artifacts of this portfolio item
+- document_id: M12-FINAL-001
+  level: PORTFOLIO
+  scope_id: M12
+  status: NOT_CREATED
+  derives_from: artifacts of this portfolio item
+- document_id: M13-FINAL-001
+  level: PORTFOLIO
+  scope_id: M13
+  status: NOT_CREATED
+  derives_from: artifacts of this portfolio item
+- document_id: M14-FINAL-001
+  level: PORTFOLIO
+  scope_id: M14
+  status: NOT_CREATED
+  derives_from: artifacts of this portfolio item
+- document_id: M15-FINAL-001
+  level: PORTFOLIO
+  scope_id: M15
+  status: NOT_CREATED
+  derives_from: artifacts of this portfolio item
+- document_id: M16-FINAL-001
+  level: PORTFOLIO
+  scope_id: M16
+  status: NOT_CREATED
+  derives_from: artifacts of this portfolio item
+- document_id: EXECUTAR-FINAL-001
+  level: PROGRAM
+  scope_id: EXECUTAR
+  status: NOT_CREATED
+  derives_from: all macroareas + portfolio

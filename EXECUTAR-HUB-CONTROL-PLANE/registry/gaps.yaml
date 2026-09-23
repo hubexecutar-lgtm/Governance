@@ -1,0 +1,82 @@
+- gap_id: NA-01
+  type: NEXT_ACTION
+  description: Validar com o owner de cada area os campos marcados PROPOSED (interpretacao
+    logica de negocio) e substituir por dado real.
+  priority: alta
+  status: OPEN
+  source: EXECUTAR_CHECKLIST_D01-D23_GRANULAR.yaml#next_actions_register
+- gap_id: NA-02
+  type: NEXT_ACTION
+  description: Confirmar ou descartar os benchmarks EXTERNAL_EVIDENCE (LGPD, SaaS
+    metrics, RACI, SLA, RTO/RPO, WCAG, data governance, portfolio) com dados proprios
+    do ecossistema.
+  priority: alta
+  status: OPEN
+  source: EXECUTAR_CHECKLIST_D01-D23_GRANULAR.yaml#next_actions_register
+- gap_id: NA-03
+  type: NEXT_ACTION
+  description: Executar PF-24 (reconciliacao cruzada) preenchendo depends_on/blocks
+    entre areas.
+  priority: alta
+  status: OPEN
+  source: EXECUTAR_CHECKLIST_D01-D23_GRANULAR.yaml#next_actions_register
+- gap_id: NA-04
+  type: NEXT_ACTION
+  description: Resolver CONFLICT_REGISTER (11 itens), comecando por contagem de documentos
+    (37 vs 46) e identidade de 'Vera' (produto/agente vs pessoa fisica).
+  priority: alta
+  status: OPEN
+  source: EXECUTAR_CHECKLIST_D01-D23_GRANULAR.yaml#next_actions_register
+- gap_id: NA-05
+  type: NEXT_ACTION
+  description: Ler campo a campo os pacotes de skill/SDK do Workflow.zip e os blocos
+    B03/B05/B06 do GOV-SPEC ainda nao lidos linha a linha, para promover mais campos
+    PROPOSED/EXTERNAL para FOUND/DIRECT.
+  priority: media
+  status: OPEN
+  source: EXECUTAR_CHECKLIST_D01-D23_GRANULAR.yaml#next_actions_register
+- gap_id: UAR-01
+  type: USER_ACTION_REQUIRED
+  description: 'Qual numero de documentos prevalece: 37 (Handoff.md) ou 46 (GOVERNANCA)?'
+  priority: alta
+  status: OPEN
+  source: EXECUTAR_CHECKLIST_D01-D23_GRANULAR.yaml#user_action_required
+  fields_afetados:
+  - D06-DOC-EGC-001
+- gap_id: UAR-02
+  type: USER_ACTION_REQUIRED
+  description: O plano GTM de lancamento em 07/09/2026 ja foi executado? Com qual
+    resultado? Se nao, qual a nova data?
+  priority: alta
+  status: OPEN
+  source: EXECUTAR_CHECKLIST_D01-D23_GRANULAR.yaml#user_action_required
+  fields_afetados:
+  - D07-DOC-PIM-001.milestones.marco
+  - D13-DOC-GTM-001.launch.launch
+- gap_id: UAR-03
+  type: USER_ACTION_REQUIRED
+  description: Vera e uma pessoa real da equipe (com pendencia de INSS registrada)
+    ou apenas o nome do agente/produto? Se pessoa real, qual seu papel formal?
+  priority: alta
+  status: OPEN
+  source: EXECUTAR_CHECKLIST_D01-D23_GRANULAR.yaml#user_action_required
+  fields_afetados:
+  - D04-DOC-PPC-001.people.pessoa
+- gap_id: UAR-04
+  type: USER_ACTION_REQUIRED
+  description: Todos os 1.013 campos PROPOSED neste YAML sao recomendacoes genericas
+    de pratica de mercado, nao fatos deste ecossistema. Autoriza tratar cada um deles
+    como base para trabalho subsequente, ou prefere que eu priorize revisao humana
+    antes de qualquer uso operacional desses campos?
+  priority: alta
+  status: OPEN
+  source: EXECUTAR_CHECKLIST_D01-D23_GRANULAR.yaml#user_action_required
+  fields_afetados:
+  - Todos os campos com epistemic_class=PROPOSED em todos os 37 documentos
+- gap_id: GAP-DEP-01
+  type: STRUCTURAL
+  description: Campos depends_on/blocks entre areas continuam nao preenchidos (PF-24
+    nao executado em profundidade); proximo passo registrado em NEXT_ACTIONS_REGISTER.
+  priority: alta
+  status: OPEN
+  source: validation_report

@@ -1,0 +1,24 @@
+agent:
+  id: dependency-resolver
+  role: Integridade de dependências e gates
+  objective: Garantir que toda dependência aponta para um artefato existente e todo
+    gate_id referenciado existe.
+  reads:
+  - registry/dependencies.yaml
+  - registry/artifacts.yaml
+  - registry/gates.yaml
+  writes: []
+  tools:
+  - scripts/validate_dependencies.py
+  - scripts/validate_gates.py
+  permissions:
+  - read:registry
+  inputs: []
+  outputs:
+  - broken_dependencies
+  - missing_gate_references
+  dependencies: []
+  validation:
+  - broken_dependencies == [] e missing_gate_references == []
+  stop_conditions:
+  - ambos os scripts retornam PASS

@@ -1,0 +1,35 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Conflict",
+  "type": "object",
+  "required": [
+    "conflict_id",
+    "issue"
+  ],
+  "properties": {
+    "conflict_id": {
+      "type": "string"
+    },
+    "domain_id": {
+      "type": "string"
+    },
+    "document_id": {
+      "type": "string"
+    },
+    "field_id": {
+      "type": "string"
+    },
+    "issue": {
+      "type": "string"
+    },
+    "resolution_rule": {
+      "type": "string"
+    },
+    "requires_human_decision": {
+      "type": "boolean"
+    },
+    "status": {
+      "type": "string"
+    }
+  }
+}

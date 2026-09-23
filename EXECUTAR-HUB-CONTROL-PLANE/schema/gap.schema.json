@@ -1,0 +1,30 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Gap",
+  "type": "object",
+  "required": [
+    "gap_id",
+    "type",
+    "description"
+  ],
+  "properties": {
+    "gap_id": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "priority": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string"
+    },
+    "source": {
+      "type": "string"
+    }
+  }
+}

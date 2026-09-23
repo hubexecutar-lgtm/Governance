@@ -1,0 +1,4 @@
+canonical_ids_immutable_after_freeze: true
+legacy_ids_preserved: true
+rule: LEGACY_ID -> CANONICAL_ID mapping is append-only; canonical_id never reused
+  or recycled.
